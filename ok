@@ -1,0 +1,2993 @@
+{
+  "group": {
+    "id": 1,
+    "sport": "NOT-SPECIFIED",
+    "boCount": 20442,
+    "groups": [
+      {
+        "id": 1000093190,
+        "sport": "FOOTBALL",
+        "name": "Fotboll",
+        "boCount": 15862,
+        "groups": [
+          {
+            "id": 2000059025,
+            "sport": "FOOTBALL",
+            "name": "Euro 2016",
+            "boCount": 1
+          },
+          {
+            "id": 2000066141,
+            "sport": "FOOTBALL",
+            "name": "Euro 2016 Kval",
+            "boCount": 19
+          },
+          {
+            "id": 2000075007,
+            "sport": "FOOTBALL",
+            "name": "Vm 2018",
+            "boCount": 2
+          },
+          {
+            "id": 1000093381,
+            "sport": "FOOTBALL",
+            "name": "Champions League",
+            "boCount": 595
+          },
+          {
+            "id": 2000051195,
+            "sport": "FOOTBALL",
+            "name": "Europa League",
+            "boCount": 484
+          },
+          {
+            "id": 1000093791,
+            "sport": "FOOTBALL",
+            "name": "Specialer",
+            "boCount": 44,
+            "groups": [
+              {
+                "id": 1000097827,
+                "sport": "FOOTBALL",
+                "name": "Fantasy-matcher",
+                "boCount": 2
+              },
+              {
+                "id": 1000097843,
+                "sport": "FOOTBALL",
+                "name": "Internationella utmärkelser",
+                "boCount": 1
+              },
+              {
+                "id": 1000097836,
+                "sport": "FOOTBALL",
+                "name": "Tränare",
+                "boCount": 10
+              },
+              {
+                "id": 1000097835,
+                "sport": "FOOTBALL",
+                "name": "Övergångar",
+                "boCount": 31
+              }
+            ]
+          },
+          {
+            "id": 1000461814,
+            "sport": "FOOTBALL",
+            "name": "Sverige",
+            "boCount": 1336,
+            "groups": [
+              {
+                "id": 1000095057,
+                "sport": "FOOTBALL",
+                "name": "Allsvenskan",
+                "boCount": 779
+              },
+              {
+                "id": 1000095052,
+                "sport": "FOOTBALL",
+                "name": "Superettan",
+                "boCount": 348
+              },
+              {
+                "id": 1000094744,
+                "sport": "FOOTBALL",
+                "name": "Division 1 Norra",
+                "boCount": 3
+              },
+              {
+                "id": 1000094745,
+                "sport": "FOOTBALL",
+                "name": "Division 1 Södra",
+                "boCount": 86
+              },
+              {
+                "id": 1000095059,
+                "sport": "FOOTBALL",
+                "name": "Svenska Cupen",
+                "boCount": 116
+              },
+              {
+                "id": 1000094184,
+                "sport": "FOOTBALL",
+                "name": "Division 2 N. Svealand",
+                "boCount": 1
+              },
+              {
+                "id": 2000055096,
+                "sport": "FOOTBALL",
+                "name": "Division 3 SS",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 1000461733,
+            "sport": "FOOTBALL",
+            "name": "England",
+            "boCount": 2208,
+            "groups": [
+              {
+                "id": 1000094985,
+                "sport": "FOOTBALL",
+                "name": "Premier League",
+                "boCount": 1463
+              },
+              {
+                "id": 1000094981,
+                "sport": "FOOTBALL",
+                "name": "The Championship",
+                "boCount": 234
+              },
+              {
+                "id": 1000094982,
+                "sport": "FOOTBALL",
+                "name": "League One",
+                "boCount": 432
+              },
+              {
+                "id": 1000094987,
+                "sport": "FOOTBALL",
+                "name": "League Two",
+                "boCount": 5
+              },
+              {
+                "id": 1000094984,
+                "sport": "FOOTBALL",
+                "name": "FA-Cupen",
+                "boCount": 2
+              },
+              {
+                "id": 1000095485,
+                "sport": "FOOTBALL",
+                "name": "Conference",
+                "boCount": 1
+              },
+              {
+                "id": 2000050126,
+                "sport": "FOOTBALL",
+                "name": "Conference North",
+                "boCount": 54
+              },
+              {
+                "id": 2000079307,
+                "sport": "FOOTBALL",
+                "name": "Internationell kombo",
+                "boCount": 1
+              },
+              {
+                "id": 2000054642,
+                "sport": "FOOTBALL",
+                "name": "Isthmian League Premier Division",
+                "boCount": 3
+              },
+              {
+                "id": 2000079296,
+                "sport": "FOOTBALL",
+                "name": "Nationell kombo",
+                "boCount": 1
+              },
+              {
+                "id": 2000054030,
+                "sport": "FOOTBALL",
+                "name": "Northern League Premier Division",
+                "boCount": 9
+              },
+              {
+                "id": 2000052846,
+                "sport": "FOOTBALL",
+                "name": "Southern League Premier Division",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 1000461813,
+            "sport": "FOOTBALL",
+            "name": "Spanien",
+            "boCount": 1265,
+            "groups": [
+              {
+                "id": 1000095049,
+                "sport": "FOOTBALL",
+                "name": "Primera División",
+                "boCount": 1262
+              },
+              {
+                "id": 1000095050,
+                "sport": "FOOTBALL",
+                "name": "Copa del Rey",
+                "boCount": 1
+              },
+              {
+                "id": 2000079309,
+                "sport": "FOOTBALL",
+                "name": "Internationell kombo",
+                "boCount": 1
+              },
+              {
+                "id": 2000079308,
+                "sport": "FOOTBALL",
+                "name": "Nationell kombo",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000461745,
+            "sport": "FOOTBALL",
+            "name": "Italien",
+            "boCount": 1506,
+            "groups": [
+              {
+                "id": 1000095001,
+                "sport": "FOOTBALL",
+                "name": "Serie A",
+                "boCount": 1390
+              },
+              {
+                "id": 1000095002,
+                "sport": "FOOTBALL",
+                "name": "Serie B",
+                "boCount": 88
+              },
+              {
+                "id": 1000094998,
+                "sport": "FOOTBALL",
+                "name": "Coppa Italia",
+                "boCount": 1
+              },
+              {
+                "id": 2000079607,
+                "sport": "FOOTBALL",
+                "name": "Lega Pro A",
+                "boCount": 27
+              }
+            ]
+          },
+          {
+            "id": 1000461728,
+            "sport": "FOOTBALL",
+            "name": "Tyskland",
+            "boCount": 2701,
+            "groups": [
+              {
+                "id": 1000094994,
+                "sport": "FOOTBALL",
+                "name": "Bundesliga",
+                "boCount": 2172
+              },
+              {
+                "id": 1000094993,
+                "sport": "FOOTBALL",
+                "name": "2. Bundesliga",
+                "boCount": 104
+              },
+              {
+                "id": 1000094995,
+                "sport": "FOOTBALL",
+                "name": "DFB-Pokalen",
+                "boCount": 227
+              },
+              {
+                "id": 2000059631,
+                "sport": "FOOTBALL",
+                "name": "Regionalliga Bayern",
+                "boCount": 132
+              },
+              {
+                "id": 2000059630,
+                "sport": "FOOTBALL",
+                "name": "Regionalliga Südwest",
+                "boCount": 66
+              }
+            ]
+          },
+          {
+            "id": 1000461727,
+            "sport": "FOOTBALL",
+            "name": "Frankrike",
+            "boCount": 1125,
+            "groups": [
+              {
+                "id": 1000094991,
+                "sport": "FOOTBALL",
+                "name": "Ligue 1",
+                "boCount": 1037
+              },
+              {
+                "id": 1000094568,
+                "sport": "FOOTBALL",
+                "name": "Ligue 2",
+                "boCount": 85
+              },
+              {
+                "id": 1000094990,
+                "sport": "FOOTBALL",
+                "name": "Coupe de France",
+                "boCount": 1
+              },
+              {
+                "id": 2000079315,
+                "sport": "FOOTBALL",
+                "name": "Internationell kombo",
+                "boCount": 1
+              },
+              {
+                "id": 2000079314,
+                "sport": "FOOTBALL",
+                "name": "Nationell kombo",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000084547,
+            "sport": "FOOTBALL",
+            "name": "AFC Champions League",
+            "boCount": 1
+          },
+          {
+            "id": 1000461754,
+            "sport": "FOOTBALL",
+            "name": "Argentina",
+            "boCount": 289,
+            "groups": [
+              {
+                "id": 2000050561,
+                "sport": "FOOTBALL",
+                "name": "Primera Divisón",
+                "boCount": 256
+              },
+              {
+                "id": 1000442572,
+                "sport": "FOOTBALL",
+                "name": "Primera B",
+                "boCount": 27
+              },
+              {
+                "id": 2000052332,
+                "sport": "FOOTBALL",
+                "name": "Primera B Metropolitana",
+                "boCount": 6
+              }
+            ]
+          },
+          {
+            "id": 1000461755,
+            "sport": "FOOTBALL",
+            "name": "Australien",
+            "boCount": 433,
+            "groups": [
+              {
+                "id": 1000182606,
+                "sport": "FOOTBALL",
+                "name": "A-League",
+                "boCount": 433
+              }
+            ]
+          },
+          {
+            "id": 1000461772,
+            "sport": "FOOTBALL",
+            "name": "Bahrain",
+            "boCount": 12,
+            "groups": [
+              {
+                "id": 1000317386,
+                "sport": "FOOTBALL",
+                "name": "Premier League",
+                "boCount": 12
+              }
+            ]
+          },
+          {
+            "id": 1000461740,
+            "sport": "FOOTBALL",
+            "name": "Belgien",
+            "boCount": 8,
+            "groups": [
+              {
+                "id": 1000094965,
+                "sport": "FOOTBALL",
+                "name": "Jupilerligan",
+                "boCount": 8
+              }
+            ]
+          },
+          {
+            "id": 1000461757,
+            "sport": "FOOTBALL",
+            "name": "Bulgarien",
+            "boCount": 66,
+            "groups": [
+              {
+                "id": 1000383831,
+                "sport": "FOOTBALL",
+                "name": "A PFG",
+                "boCount": 66
+              }
+            ]
+          },
+          {
+            "id": 1000461759,
+            "sport": "FOOTBALL",
+            "name": "Colombia",
+            "boCount": 66,
+            "groups": [
+              {
+                "id": 1000449742,
+                "sport": "FOOTBALL",
+                "name": "Liga Postobon",
+                "boCount": 66
+              }
+            ]
+          },
+          {
+            "id": 1000461736,
+            "sport": "FOOTBALL",
+            "name": "Danmark",
+            "boCount": 1117,
+            "groups": [
+              {
+                "id": 1000094978,
+                "sport": "FOOTBALL",
+                "name": "Superligaen",
+                "boCount": 938
+              },
+              {
+                "id": 1000443738,
+                "sport": "FOOTBALL",
+                "name": "DBU Pokalen",
+                "boCount": 177
+              },
+              {
+                "id": 1000094606,
+                "sport": "FOOTBALL",
+                "name": "2:a Divisionen Öst",
+                "boCount": 1
+              },
+              {
+                "id": 1000094607,
+                "sport": "FOOTBALL",
+                "name": "2:a Divisionen Väst",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000461822,
+            "sport": "FOOTBALL",
+            "name": "Finland",
+            "boCount": 16,
+            "groups": [
+              {
+                "id": 1000094989,
+                "sport": "FOOTBALL",
+                "name": "Veikkausliiga",
+                "boCount": 10
+              },
+              {
+                "id": 1000094796,
+                "sport": "FOOTBALL",
+                "name": "Ykkönen",
+                "boCount": 6
+              }
+            ]
+          },
+          {
+            "id": 1000461753,
+            "sport": "FOOTBALL",
+            "name": "Holland",
+            "boCount": 186,
+            "groups": [
+              {
+                "id": 1000094980,
+                "sport": "FOOTBALL",
+                "name": "Eredivisie",
+                "boCount": 11
+              },
+              {
+                "id": 1000095127,
+                "sport": "FOOTBALL",
+                "name": "Jupiler League",
+                "boCount": 174
+              },
+              {
+                "id": 1000094979,
+                "sport": "FOOTBALL",
+                "name": "KNVB Beker",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000057322,
+            "sport": "FOOTBALL",
+            "name": "Internationella ungdomsturneringar",
+            "boCount": 5,
+            "groups": [
+              {
+                "id": 2000057387,
+                "sport": "FOOTBALL",
+                "name": "UEFA Championship U17",
+                "boCount": 5
+              }
+            ]
+          },
+          {
+            "id": 1000461750,
+            "sport": "FOOTBALL",
+            "name": "Irland",
+            "boCount": 508,
+            "groups": [
+              {
+                "id": 1000095601,
+                "sport": "FOOTBALL",
+                "name": "Eircom League",
+                "boCount": 508
+              }
+            ]
+          },
+          {
+            "id": 1000461820,
+            "sport": "FOOTBALL",
+            "name": "Israel",
+            "boCount": 36,
+            "groups": [
+              {
+                "id": 2000050214,
+                "sport": "FOOTBALL",
+                "name": "Liga Leumit",
+                "boCount": 9
+              },
+              {
+                "id": 1000257492,
+                "sport": "FOOTBALL",
+                "name": "Ligat Ha'Al",
+                "boCount": 27
+              }
+            ]
+          },
+          {
+            "id": 2000053506,
+            "sport": "FOOTBALL",
+            "name": "Kazakhstan",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 2000053507,
+                "sport": "FOOTBALL",
+                "name": "Premier League",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 1000461744,
+            "sport": "FOOTBALL",
+            "name": "Norge",
+            "boCount": 319,
+            "groups": [
+              {
+                "id": 1000095010,
+                "sport": "FOOTBALL",
+                "name": "Tippeligan",
+                "boCount": 17
+              },
+              {
+                "id": 1000095003,
+                "sport": "FOOTBALL",
+                "name": "Division 1",
+                "boCount": 234
+              },
+              {
+                "id": 1000095008,
+                "sport": "FOOTBALL",
+                "name": "Norska Cupen ",
+                "boCount": 62
+              },
+              {
+                "id": 2000072565,
+                "sport": "FOOTBALL",
+                "name": "3 Div-3",
+                "boCount": 2
+              },
+              {
+                "id": 2000074108,
+                "sport": "FOOTBALL",
+                "name": "4 Div Agder 1",
+                "boCount": 1
+              },
+              {
+                "id": 2000074110,
+                "sport": "FOOTBALL",
+                "name": "4 Div Buskerud 1",
+                "boCount": 1
+              },
+              {
+                "id": 2000074181,
+                "sport": "FOOTBALL",
+                "name": "4 Div Telemark 1",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000461811,
+            "sport": "FOOTBALL",
+            "name": "Polen",
+            "boCount": 172,
+            "groups": [
+              {
+                "id": 1000385219,
+                "sport": "FOOTBALL",
+                "name": "Ekstraklasa",
+                "boCount": 96
+              },
+              {
+                "id": 1000095016,
+                "sport": "FOOTBALL",
+                "name": "Polska Cupen ",
+                "boCount": 76
+              }
+            ]
+          },
+          {
+            "id": 1000461812,
+            "sport": "FOOTBALL",
+            "name": "Portugal",
+            "boCount": 88,
+            "groups": [
+              {
+                "id": 1000095042,
+                "sport": "FOOTBALL",
+                "name": "Primeira Liga",
+                "boCount": 88
+              }
+            ]
+          },
+          {
+            "id": 1000461808,
+            "sport": "FOOTBALL",
+            "name": "Rumänien",
+            "boCount": 132,
+            "groups": [
+              {
+                "id": 1000095499,
+                "sport": "FOOTBALL",
+                "name": "Liga I",
+                "boCount": 132
+              }
+            ]
+          },
+          {
+            "id": 1000461809,
+            "sport": "FOOTBALL",
+            "name": "Ryssland",
+            "boCount": 304,
+            "groups": [
+              {
+                "id": 1000095590,
+                "sport": "FOOTBALL",
+                "name": "Premier League",
+                "boCount": 172
+              },
+              {
+                "id": 1000095844,
+                "sport": "FOOTBALL",
+                "name": "Russia Cup",
+                "boCount": 132
+              }
+            ]
+          },
+          {
+            "id": 1000461815,
+            "sport": "FOOTBALL",
+            "name": "Schweiz",
+            "boCount": 66,
+            "groups": [
+              {
+                "id": 1000095021,
+                "sport": "FOOTBALL",
+                "name": "Challenge League",
+                "boCount": 66
+              }
+            ]
+          },
+          {
+            "id": 1000461762,
+            "sport": "FOOTBALL",
+            "name": "Singapore",
+            "boCount": 26,
+            "groups": [
+              {
+                "id": 1000315962,
+                "sport": "FOOTBALL",
+                "name": "S-League",
+                "boCount": 26
+              }
+            ]
+          },
+          {
+            "id": 1000461810,
+            "sport": "FOOTBALL",
+            "name": "Skottland",
+            "boCount": 6,
+            "groups": [
+              {
+                "id": 1000095047,
+                "sport": "FOOTBALL",
+                "name": "Premiership",
+                "boCount": 4
+              },
+              {
+                "id": 1000280417,
+                "sport": "FOOTBALL",
+                "name": "League One",
+                "boCount": 1
+              },
+              {
+                "id": 1000094254,
+                "sport": "FOOTBALL",
+                "name": "Scottish Cup",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000461799,
+            "sport": "FOOTBALL",
+            "name": "Sydkorea",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000064655,
+                "sport": "FOOTBALL",
+                "name": "K-League Challenge",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000461735,
+            "sport": "FOOTBALL",
+            "name": "Tjeckien",
+            "boCount": 87,
+            "groups": [
+              {
+                "id": 1000094975,
+                "sport": "FOOTBALL",
+                "name": "Tjeckiska förstaligan",
+                "boCount": 87
+              }
+            ]
+          },
+          {
+            "id": 2000053118,
+            "sport": "FOOTBALL",
+            "name": "Tunisien",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000053119,
+                "sport": "FOOTBALL",
+                "name": "Ligue 1",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000461821,
+            "sport": "FOOTBALL",
+            "name": "Turkiet",
+            "boCount": 240,
+            "groups": [
+              {
+                "id": 1000305993,
+                "sport": "FOOTBALL",
+                "name": "1. Lig",
+                "boCount": 65
+              },
+              {
+                "id": 1000095062,
+                "sport": "FOOTBALL",
+                "name": "Süper Lig",
+                "boCount": 175
+              }
+            ]
+          },
+          {
+            "id": 1000151680,
+            "sport": "FOOTBALL",
+            "name": "U21 EM",
+            "boCount": 10
+          },
+          {
+            "id": 1000242145,
+            "sport": "FOOTBALL",
+            "name": "Ungdomslandskamper",
+            "boCount": 25,
+            "groups": [
+              {
+                "id": 2000057397,
+                "sport": "FOOTBALL",
+                "name": "Under 18",
+                "boCount": 25
+              }
+            ]
+          },
+          {
+            "id": 1000461816,
+            "sport": "FOOTBALL",
+            "name": "USA",
+            "boCount": 12,
+            "groups": [
+              {
+                "id": 1000095063,
+                "sport": "FOOTBALL",
+                "name": "MLS",
+                "boCount": 12
+              }
+            ]
+          },
+          {
+            "id": 2000051379,
+            "sport": "FOOTBALL",
+            "name": "Vitryssland",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 2000051381,
+                "sport": "FOOTBALL",
+                "name": "Vysshaya League",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 1000176570,
+            "sport": "FOOTBALL",
+            "name": "VM damer - Vinnare",
+            "boCount": 7
+          },
+          {
+            "id": 1000461751,
+            "sport": "FOOTBALL",
+            "name": "Österrike",
+            "boCount": 330,
+            "groups": [
+              {
+                "id": 1000345893,
+                "sport": "FOOTBALL",
+                "name": "Erste Liga",
+                "boCount": 330
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093191,
+        "sport": "ICE_HOCKEY",
+        "name": "Ishockey",
+        "boCount": 869,
+        "groups": [
+          {
+            "id": 1000093961,
+            "sport": "ICE_HOCKEY",
+            "name": "Ishockey-VM",
+            "boCount": 14
+          },
+          {
+            "id": 1000461910,
+            "sport": "ICE_HOCKEY",
+            "name": "Sverige",
+            "boCount": 121,
+            "groups": [
+              {
+                "id": 1000094968,
+                "sport": "ICE_HOCKEY",
+                "name": "SHL",
+                "boCount": 121
+              }
+            ]
+          },
+          {
+            "id": 1000093657,
+            "sport": "ICE_HOCKEY",
+            "name": "NHL",
+            "boCount": 419
+          },
+          {
+            "id": 1000461918,
+            "sport": "ICE_HOCKEY",
+            "name": "Finland",
+            "boCount": 111,
+            "groups": [
+              {
+                "id": 1000094964,
+                "sport": "ICE_HOCKEY",
+                "name": "Liiga",
+                "boCount": 111
+              }
+            ]
+          },
+          {
+            "id": 1000461905,
+            "sport": "ICE_HOCKEY",
+            "name": "Ryssland",
+            "boCount": 25,
+            "groups": [
+              {
+                "id": 2000054520,
+                "sport": "ICE_HOCKEY",
+                "name": "VHL",
+                "boCount": 24
+              },
+              {
+                "id": 2000052908,
+                "sport": "ICE_HOCKEY",
+                "name": "MHL",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000461831,
+            "sport": "ICE_HOCKEY",
+            "name": "Tjeckien",
+            "boCount": 30,
+            "groups": [
+              {
+                "id": 1000094960,
+                "sport": "ICE_HOCKEY",
+                "name": "Extraliga",
+                "boCount": 30
+              }
+            ]
+          },
+          {
+            "id": 1000461824,
+            "sport": "ICE_HOCKEY",
+            "name": "Tyskland",
+            "boCount": 29,
+            "groups": [
+              {
+                "id": 1000094966,
+                "sport": "ICE_HOCKEY",
+                "name": "DEL Bundesliga",
+                "boCount": 29
+              }
+            ]
+          },
+          {
+            "id": 1000127518,
+            "sport": "ICE_HOCKEY",
+            "name": "U18-VM",
+            "boCount": 48
+          },
+          {
+            "id": 2000083333,
+            "sport": "ICE_HOCKEY",
+            "name": "World Championship Division I",
+            "boCount": 72
+          }
+        ]
+      },
+      {
+        "id": 1000093193,
+        "sport": "TENNIS",
+        "name": "Tennis",
+        "boCount": 260,
+        "groups": [
+          {
+            "id": 1000093528,
+            "sport": "TENNIS",
+            "name": "Grand Slam",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 1000096467,
+                "sport": "TENNIS",
+                "name": "Wimbledon",
+                "boCount": 1
+              },
+              {
+                "id": 1000096477,
+                "sport": "TENNIS",
+                "name": "Wimbledon Damer",
+                "boCount": 1
+              },
+              {
+                "id": 1000096468,
+                "sport": "TENNIS",
+                "name": "Franska Öppna ",
+                "boCount": 1
+              },
+              {
+                "id": 1000096478,
+                "sport": "TENNIS",
+                "name": "Franska Öppna Damer ",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000093324,
+            "sport": "TENNIS",
+            "name": "ATP",
+            "boCount": 161,
+            "groups": [
+              {
+                "id": 1000096239,
+                "sport": "TENNIS",
+                "name": "Barcelona",
+                "boCount": 96
+              },
+              {
+                "id": 1000096185,
+                "sport": "TENNIS",
+                "name": "Bukarest",
+                "boCount": 64
+              },
+              {
+                "id": 1000096173,
+                "sport": "TENNIS",
+                "name": "Specialer",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000093904,
+            "sport": "TENNIS",
+            "name": "WTA",
+            "boCount": 65,
+            "groups": [
+              {
+                "id": 1000098169,
+                "sport": "TENNIS",
+                "name": "Specialer",
+                "boCount": 1
+              },
+              {
+                "id": 1000098116,
+                "sport": "TENNIS",
+                "name": "Stuttgart",
+                "boCount": 64
+              }
+            ]
+          },
+          {
+            "id": 2000070472,
+            "sport": "TENNIS",
+            "name": "ATP Doubles",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 2000070477,
+                "sport": "TENNIS",
+                "name": "Barcelona",
+                "boCount": 1
+              },
+              {
+                "id": 2000070482,
+                "sport": "TENNIS",
+                "name": "Bucharest",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 2000070473,
+            "sport": "TENNIS",
+            "name": "ATP Qual.",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000070573,
+                "sport": "TENNIS",
+                "name": "Bucharest",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000093377,
+            "sport": "TENNIS",
+            "name": "Challenger",
+            "boCount": 16,
+            "groups": [
+              {
+                "id": 2000070866,
+                "sport": "TENNIS",
+                "name": "Guadalajara",
+                "boCount": 4
+              },
+              {
+                "id": 2000073253,
+                "sport": "TENNIS",
+                "name": "Santos",
+                "boCount": 4
+              },
+              {
+                "id": 2000073247,
+                "sport": "TENNIS",
+                "name": "Savannah",
+                "boCount": 4
+              },
+              {
+                "id": 2000073256,
+                "sport": "TENNIS",
+                "name": "Vercelli",
+                "boCount": 4
+              }
+            ]
+          },
+          {
+            "id": 1000093418,
+            "sport": "TENNIS",
+            "name": "Davis Cup",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 1000272881,
+                "sport": "TENNIS",
+                "name": "Turneringsspel",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000093786,
+            "sport": "TENNIS",
+            "name": "Specialer",
+            "boCount": 3
+          },
+          {
+            "id": 2000070647,
+            "sport": "TENNIS",
+            "name": "WTA dubblar",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000070743,
+                "sport": "TENNIS",
+                "name": "Stuttgart",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000070648,
+            "sport": "TENNIS",
+            "name": "WTA Kval.",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 2000070744,
+                "sport": "TENNIS",
+                "name": "Stuttgart",
+                "boCount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093195,
+        "sport": "TROTTING",
+        "name": "Trav",
+        "boCount": 4,
+        "groups": [
+          {
+            "id": 1000462295,
+            "sport": "TROTTING",
+            "name": "Sverige",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 1000095029,
+                "sport": "TROTTING",
+                "name": "Elitloppet",
+                "boCount": 2
+              },
+              {
+                "id": 1000095222,
+                "sport": "TROTTING",
+                "name": "Svenskt Travderby",
+                "boCount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093204,
+        "sport": "BASKETBALL",
+        "name": "Basket",
+        "boCount": 1598,
+        "groups": [
+          {
+            "id": 1000093652,
+            "sport": "BASKETBALL",
+            "name": "NBA",
+            "boCount": 411
+          },
+          {
+            "id": 2000076749,
+            "sport": "BASKETBALL",
+            "name": "NBA specialer",
+            "boCount": 1
+          },
+          {
+            "id": 1000093464,
+            "sport": "BASKETBALL",
+            "name": "EM",
+            "boCount": 8
+          },
+          {
+            "id": 1000093451,
+            "sport": "BASKETBALL",
+            "name": "Euroleague",
+            "boCount": 229
+          },
+          {
+            "id": 1000463040,
+            "sport": "BASKETBALL",
+            "name": "Danmark",
+            "boCount": 136,
+            "groups": [
+              {
+                "id": 1000445294,
+                "sport": "BASKETBALL",
+                "name": "Basketligan",
+                "boCount": 136
+              }
+            ]
+          },
+          {
+            "id": 1000174254,
+            "sport": "BASKETBALL",
+            "name": "EM damer",
+            "boCount": 1
+          },
+          {
+            "id": 2000050452,
+            "sport": "BASKETBALL",
+            "name": "Estland",
+            "boCount": 65,
+            "groups": [
+              {
+                "id": 2000050453,
+                "sport": "BASKETBALL",
+                "name": "Meistriliiga",
+                "boCount": 65
+              }
+            ]
+          },
+          {
+            "id": 2000068083,
+            "sport": "BASKETBALL",
+            "name": "EuroChallenge",
+            "boCount": 5
+          },
+          {
+            "id": 1000462977,
+            "sport": "BASKETBALL",
+            "name": "Finland",
+            "boCount": 236,
+            "groups": [
+              {
+                "id": 1000095365,
+                "sport": "BASKETBALL",
+                "name": "Korisliiga",
+                "boCount": 236
+              }
+            ]
+          },
+          {
+            "id": 1000463070,
+            "sport": "BASKETBALL",
+            "name": "Frankrike",
+            "boCount": 79,
+            "groups": [
+              {
+                "id": 1000094821,
+                "sport": "BASKETBALL",
+                "name": "LNB Pro A",
+                "boCount": 79
+              }
+            ]
+          },
+          {
+            "id": 1000462999,
+            "sport": "BASKETBALL",
+            "name": "Grekland",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 1000094135,
+                "sport": "BASKETBALL",
+                "name": "A1",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000463000,
+            "sport": "BASKETBALL",
+            "name": "Holland",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 1000095750,
+                "sport": "BASKETBALL",
+                "name": "DBL",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000463069,
+            "sport": "BASKETBALL",
+            "name": "Israel",
+            "boCount": 78,
+            "groups": [
+              {
+                "id": 1000279764,
+                "sport": "BASKETBALL",
+                "name": "Super League",
+                "boCount": 78
+              }
+            ]
+          },
+          {
+            "id": 1000462996,
+            "sport": "BASKETBALL",
+            "name": "Italien",
+            "boCount": 92,
+            "groups": [
+              {
+                "id": 1000094714,
+                "sport": "BASKETBALL",
+                "name": "Serie A1",
+                "boCount": 92
+              }
+            ]
+          },
+          {
+            "id": 2000050556,
+            "sport": "BASKETBALL",
+            "name": "Litauen",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000050558,
+                "sport": "BASKETBALL",
+                "name": "LKL",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000463061,
+            "sport": "BASKETBALL",
+            "name": "Polen",
+            "boCount": 161,
+            "groups": [
+              {
+                "id": 1000443916,
+                "sport": "BASKETBALL",
+                "name": "Tauron Basket Liga",
+                "boCount": 161
+              }
+            ]
+          },
+          {
+            "id": 2000066239,
+            "sport": "BASKETBALL",
+            "name": "Puerto Rico",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000066240,
+                "sport": "BASKETBALL",
+                "name": "Baloncesto Superior Nacional",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000463062,
+            "sport": "BASKETBALL",
+            "name": "Spanien",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 1000094189,
+                "sport": "BASKETBALL",
+                "name": "Liga ACB",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000462984,
+            "sport": "BASKETBALL",
+            "name": "Tjeckien",
+            "boCount": 40,
+            "groups": [
+              {
+                "id": 1000278309,
+                "sport": "BASKETBALL",
+                "name": "NBL",
+                "boCount": 40
+              }
+            ]
+          },
+          {
+            "id": 1000463066,
+            "sport": "BASKETBALL",
+            "name": "Turkiet",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 1000188349,
+                "sport": "BASKETBALL",
+                "name": "TBL",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 1000462975,
+            "sport": "BASKETBALL",
+            "name": "Tyskland",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 1000094172,
+                "sport": "BASKETBALL",
+                "name": "BEKO BBL",
+                "boCount": 4
+              }
+            ]
+          },
+          {
+            "id": 2000052031,
+            "sport": "BASKETBALL",
+            "name": "VTB United League",
+            "boCount": 2
+          },
+          {
+            "id": 1000174277,
+            "sport": "BASKETBALL",
+            "name": "WNBA",
+            "boCount": 1
+          },
+          {
+            "id": 1000463002,
+            "sport": "BASKETBALL",
+            "name": "Österrike",
+            "boCount": 39,
+            "groups": [
+              {
+                "id": 1000280896,
+                "sport": "BASKETBALL",
+                "name": "ÖBL",
+                "boCount": 39
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093205,
+        "sport": "HANDBALL",
+        "name": "Handboll",
+        "boCount": 79,
+        "groups": [
+          {
+            "id": 1000174363,
+            "sport": "HANDBALL",
+            "name": "VM Damer",
+            "boCount": 1
+          },
+          {
+            "id": 1000174358,
+            "sport": "HANDBALL",
+            "name": "Champions League Damer",
+            "boCount": 9
+          },
+          {
+            "id": 1000463159,
+            "sport": "HANDBALL",
+            "name": "Sverige",
+            "boCount": 37,
+            "groups": [
+              {
+                "id": 1000095041,
+                "sport": "HANDBALL",
+                "name": "Elitserien",
+                "boCount": 37
+              }
+            ]
+          },
+          {
+            "id": 1000463071,
+            "sport": "HANDBALL",
+            "name": "Tyskland",
+            "boCount": 14,
+            "groups": [
+              {
+                "id": 1000095011,
+                "sport": "HANDBALL",
+                "name": "Bundesliga",
+                "boCount": 14
+              }
+            ]
+          },
+          {
+            "id": 1000463157,
+            "sport": "HANDBALL",
+            "name": "Polen",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 1000454431,
+                "sport": "HANDBALL",
+                "name": "Superliga Damer",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 2000055181,
+            "sport": "HANDBALL",
+            "name": "Russia",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 2000056114,
+                "sport": "HANDBALL",
+                "name": "Super League damer",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 2000052104,
+            "sport": "HANDBALL",
+            "name": "Österrike",
+            "boCount": 12,
+            "groups": [
+              {
+                "id": 2000052105,
+                "sport": "HANDBALL",
+                "name": "HLA",
+                "boCount": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000217859,
+        "sport": "WINTERSPORTS",
+        "name": "Vintersport",
+        "boCount": 8,
+        "groups": [
+          {
+            "id": 1000217862,
+            "sport": "ALPINE_SKIING",
+            "name": "Alpint",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 1000217865,
+                "sport": "ALPINE_SKIING",
+                "name": "Säsongsspel",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000217918,
+            "sport": "SKI_JUMPING",
+            "name": "Backhoppning",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 1000217925,
+                "sport": "SKI_JUMPING",
+                "name": "Säsongsspel",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000217866,
+            "sport": "CROSS_COUNTRY_SKIING",
+            "name": "Längdskidor",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 1000217867,
+                "sport": "CROSS_COUNTRY_SKIING",
+                "name": "Herrar",
+                "boCount": 2
+              },
+              {
+                "id": 2000072304,
+                "sport": "CROSS_COUNTRY_SKIING",
+                "name": "Ski Classics",
+                "boCount": 1
+              },
+              {
+                "id": 1000217869,
+                "sport": "CROSS_COUNTRY_SKIING",
+                "name": "Säsongsspel",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000217870,
+            "sport": "BIATHLON",
+            "name": "Skidskytte",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 1000217873,
+                "sport": "BIATHLON",
+                "name": "Säsongsspel",
+                "boCount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093238,
+        "sport": "MARTIAL_ARTS",
+        "name": "UFC/MMA",
+        "boCount": 145,
+        "groups": [
+          {
+            "id": 1000093883,
+            "sport": "MARTIAL_ARTS",
+            "name": "UFC",
+            "boCount": 145
+          }
+        ]
+      },
+      {
+        "id": 1000093199,
+        "sport": "AMERICAN_FOOTBALL",
+        "name": "Amerikansk Fotboll",
+        "boCount": 4,
+        "groups": [
+          {
+            "id": 1000093656,
+            "sport": "AMERICAN_FOOTBALL",
+            "name": "NFL",
+            "boCount": 3
+          },
+          {
+            "id": 1000093370,
+            "sport": "AMERICAN_FOOTBALL",
+            "name": "CFL",
+            "boCount": 1
+          }
+        ]
+      },
+      {
+        "id": 1000449347,
+        "sport": "AUSTRALIAN_RULES",
+        "name": "Australian Rules",
+        "boCount": 160,
+        "groups": [
+          {
+            "id": 1000470474,
+            "sport": "AUSTRALIAN_RULES",
+            "name": "AFL",
+            "boCount": 160,
+            "groups": [
+              {
+                "id": 2000053501,
+                "sport": "AUSTRALIAN_RULES",
+                "name": "Grundserien",
+                "boCount": 135
+              },
+              {
+                "id": 2000068900,
+                "sport": "AUSTRALIAN_RULES",
+                "name": "Medaljer",
+                "boCount": 3
+              },
+              {
+                "id": 2000060345,
+                "sport": "AUSTRALIAN_RULES",
+                "name": "Säsongsspel",
+                "boCount": 22
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093211,
+        "sport": "BASEBALL",
+        "name": "Baseball",
+        "boCount": 116,
+        "groups": [
+          {
+            "id": 1000093616,
+            "sport": "BASEBALL",
+            "name": "MLB",
+            "boCount": 116
+          }
+        ]
+      },
+      {
+        "id": 1000093213,
+        "sport": "PESAPALLO",
+        "name": "Boboll",
+        "boCount": 1,
+        "groups": [
+          {
+            "id": 1000463745,
+            "sport": "PESAPALLO",
+            "name": "Finland",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 1000095079,
+                "sport": "PESAPALLO",
+                "name": "Superpesis",
+                "boCount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093201,
+        "sport": "BOXING",
+        "name": "Boxning",
+        "boCount": 45,
+        "groups": [
+          {
+            "id": 1000093350,
+            "sport": "BOXING",
+            "name": "Bantamvikt",
+            "boCount": 1
+          },
+          {
+            "id": 1000093487,
+            "sport": "BOXING",
+            "name": "Fjädervikt",
+            "boCount": 2
+          },
+          {
+            "id": 1000093631,
+            "sport": "BOXING",
+            "name": "Mellanvikt",
+            "boCount": 1
+          },
+          {
+            "id": 2000083487,
+            "sport": "BOXING",
+            "name": "Super Lightweight",
+            "boCount": 1
+          },
+          {
+            "id": 1000093816,
+            "sport": "BOXING",
+            "name": "Super-Mellanvikt",
+            "boCount": 2
+          },
+          {
+            "id": 2000085509,
+            "sport": "BOXING",
+            "name": "Super-weltervikt",
+            "boCount": 1
+          },
+          {
+            "id": 1000093541,
+            "sport": "BOXING",
+            "name": "Tungvikt",
+            "boCount": 2
+          },
+          {
+            "id": 1000093914,
+            "sport": "BOXING",
+            "name": "Weltervikt",
+            "boCount": 35
+          }
+        ]
+      },
+      {
+        "id": 1000093178,
+        "sport": "CRICKET",
+        "name": "Cricket",
+        "boCount": 123,
+        "groups": [
+          {
+            "id": 2000053346,
+            "sport": "CRICKET",
+            "name": "ICC World Twenty20 2016",
+            "boCount": 1
+          },
+          {
+            "id": 2000085729,
+            "sport": "CRICKET",
+            "name": "Internationell test, cricket",
+            "boCount": 74
+          },
+          {
+            "id": 2000085727,
+            "sport": "CRICKET",
+            "name": "IPL",
+            "boCount": 41
+          },
+          {
+            "id": 2000085707,
+            "sport": "CRICKET",
+            "name": "IPL vinnarspel",
+            "boCount": 1
+          },
+          {
+            "id": 2000052685,
+            "sport": "CRICKET",
+            "name": "Natwest T20 Blast",
+            "boCount": 2
+          },
+          {
+            "id": 2000055197,
+            "sport": "CRICKET",
+            "name": "Royal London One Day Cup",
+            "boCount": 2
+          },
+          {
+            "id": 1000093838,
+            "sport": "CRICKET",
+            "name": "The Ashes",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000054280,
+                "sport": "CRICKET",
+                "name": "Serie",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000093967,
+            "sport": "CRICKET",
+            "name": "VM",
+            "boCount": 1
+          }
+        ]
+      },
+      {
+        "id": 1000093233,
+        "sport": "CYCLING",
+        "name": "Cykel",
+        "boCount": 16,
+        "groups": [
+          {
+            "id": 1000093521,
+            "sport": "CYCLING",
+            "name": "Giro d Italia",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 1000308504,
+                "sport": "CYCLING",
+                "name": "Classification",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000093607,
+            "sport": "CYCLING",
+            "name": "Liege-Bastogne-Liege",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000051978,
+                "sport": "CYCLING",
+                "name": "Slutställning",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 1000093855,
+            "sport": "CYCLING",
+            "name": "Tour",
+            "boCount": 14,
+            "groups": [
+              {
+                "id": 1000163678,
+                "sport": "CYCLING",
+                "name": "Etapper",
+                "boCount": 4
+              },
+              {
+                "id": 2000051976,
+                "sport": "CYCLING",
+                "name": "Slutställning",
+                "boCount": 2
+              },
+              {
+                "id": 1000163679,
+                "sport": "CYCLING",
+                "name": "Specialer",
+                "boCount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093225,
+        "sport": "DARTS",
+        "name": "Dart",
+        "boCount": 11,
+        "groups": [
+          {
+            "id": 2000050086,
+            "sport": "DARTS",
+            "name": "EM",
+            "boCount": 1
+          },
+          {
+            "id": 1000093681,
+            "sport": "DARTS",
+            "name": "PDC World Championship",
+            "boCount": 1
+          },
+          {
+            "id": 1000093703,
+            "sport": "DARTS",
+            "name": "Premier League of Darts",
+            "boCount": 7
+          },
+          {
+            "id": 2000081309,
+            "sport": "DARTS",
+            "name": "Specials",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000083387,
+                "sport": "DARTS",
+                "name": "I rampljuset",
+                "boCount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093200,
+        "sport": "ATHLETICS",
+        "name": "Friidrott",
+        "boCount": 2,
+        "groups": [
+          {
+            "id": 2000054754,
+            "sport": "ATHLETICS",
+            "name": "Marathon",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000054825,
+                "sport": "ATHLETICS",
+                "name": "Herrar",
+                "boCount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093184,
+        "sport": "FUTSAL",
+        "name": "Futsal",
+        "boCount": 4,
+        "groups": [
+          {
+            "id": 2000051884,
+            "sport": "FUTSAL",
+            "name": "Ryssland",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 2000051885,
+                "sport": "FUTSAL",
+                "name": "Super League",
+                "boCount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2000065773,
+        "sport": "GALLOPS",
+        "name": "Galopp",
+        "boCount": 206,
+        "groups": [
+          {
+            "id": 2000066077,
+            "sport": "GALLOPS",
+            "name": "France",
+            "boCount": 8,
+            "groups": [
+              {
+                "id": 2000068067,
+                "sport": "GALLOPS",
+                "name": "Longchamp",
+                "boCount": 8
+              }
+            ]
+          },
+          {
+            "id": 2000065775,
+            "sport": "GALLOPS",
+            "name": "Ireland",
+            "boCount": 24,
+            "groups": [
+              {
+                "id": 2000065779,
+                "sport": "GALLOPS",
+                "name": "Cork",
+                "boCount": 24
+              }
+            ]
+          },
+          {
+            "id": 2000069500,
+            "sport": "GALLOPS",
+            "name": "South Africa",
+            "boCount": 18,
+            "groups": [
+              {
+                "id": 2000069662,
+                "sport": "GALLOPS",
+                "name": "Flamingo Park",
+                "boCount": 18
+              }
+            ]
+          },
+          {
+            "id": 2000065774,
+            "sport": "GALLOPS",
+            "name": "UK",
+            "boCount": 148,
+            "groups": [
+              {
+                "id": 2000065809,
+                "sport": "GALLOPS",
+                "name": "Hexham",
+                "boCount": 27
+              },
+              {
+                "id": 2000065984,
+                "sport": "GALLOPS",
+                "name": "Kempton",
+                "boCount": 24
+              },
+              {
+                "id": 2000065821,
+                "sport": "GALLOPS",
+                "name": "Newton Abbot",
+                "boCount": 23
+              },
+              {
+                "id": 2000065829,
+                "sport": "GALLOPS",
+                "name": "Pontefract",
+                "boCount": 22
+              },
+              {
+                "id": 2000065859,
+                "sport": "GALLOPS",
+                "name": "Windsor",
+                "boCount": 32
+              },
+              {
+                "id": 2000066004,
+                "sport": "GALLOPS",
+                "name": "Ante-Post",
+                "boCount": 20
+              }
+            ]
+          },
+          {
+            "id": 2000068281,
+            "sport": "GALLOPS",
+            "name": "UK & Ireland",
+            "boCount": 8,
+            "groups": [
+              {
+                "id": 2000068282,
+                "sport": "GALLOPS",
+                "name": "Dagens specialspel ",
+                "boCount": 5
+              },
+              {
+                "id": 2000068300,
+                "sport": "GALLOPS",
+                "name": "Specialspel långtid",
+                "boCount": 2
+              },
+              {
+                "id": 2000085329,
+                "sport": "GALLOPS",
+                "name": "Windsor 2015 Specials",
+                "boCount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093187,
+        "sport": "GOLF",
+        "name": "Golf",
+        "boCount": 8,
+        "groups": [
+          {
+            "id": 1000093845,
+            "sport": "GOLF",
+            "name": "British Open",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000050863,
+                "sport": "GOLF",
+                "name": "Turneringsspel",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000093728,
+            "sport": "GOLF",
+            "name": "Ryder Cup",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 1000097685,
+                "sport": "GOLF",
+                "name": "Turneringsspel",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000093782,
+            "sport": "GOLF",
+            "name": "Specialer",
+            "boCount": 2
+          },
+          {
+            "id": 1000093874,
+            "sport": "GOLF",
+            "name": "U.S. Open",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000050862,
+                "sport": "GOLF",
+                "name": "Turneringsspel",
+                "boCount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2000065087,
+        "sport": "GREYHOUNDS",
+        "name": "Greyhounds",
+        "boCount": 268,
+        "groups": [
+          {
+            "id": 2000065881,
+            "sport": "GREYHOUNDS",
+            "name": "UK",
+            "boCount": 268,
+            "groups": [
+              {
+                "id": 2000066039,
+                "sport": "GREYHOUNDS",
+                "name": "Ante-Post",
+                "boCount": 1
+              },
+              {
+                "id": 2000065887,
+                "sport": "GREYHOUNDS",
+                "name": "Hall Green",
+                "boCount": 36
+              },
+              {
+                "id": 2000065955,
+                "sport": "GREYHOUNDS",
+                "name": "Monmore",
+                "boCount": 42
+              },
+              {
+                "id": 2000065894,
+                "sport": "GREYHOUNDS",
+                "name": "Nottingham",
+                "boCount": 42
+              },
+              {
+                "id": 2000065899,
+                "sport": "GREYHOUNDS",
+                "name": "Romford",
+                "boCount": 36
+              },
+              {
+                "id": 2000065901,
+                "sport": "GREYHOUNDS",
+                "name": "Sheffield",
+                "boCount": 42
+              },
+              {
+                "id": 2000065904,
+                "sport": "GREYHOUNDS",
+                "name": "Swindon",
+                "boCount": 36
+              },
+              {
+                "id": 2000065906,
+                "sport": "GREYHOUNDS",
+                "name": "Yarmouth",
+                "boCount": 33
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093240,
+        "sport": "FIELD_HOCKEY",
+        "name": "Landhockey",
+        "boCount": 2,
+        "groups": [
+          {
+            "id": 1000182985,
+            "sport": "FIELD_HOCKEY",
+            "name": "EM",
+            "boCount": 1
+          },
+          {
+            "id": 2000056006,
+            "sport": "FIELD_HOCKEY",
+            "name": "EuroHockey Championship (W)",
+            "boCount": 1
+          }
+        ]
+      },
+      {
+        "id": 2000050136,
+        "sport": "MOTORSPORTS",
+        "name": "Motorsport",
+        "boCount": 19,
+        "groups": [
+          {
+            "id": 2000050137,
+            "sport": "FORMULA_1",
+            "name": "Formel 1",
+            "boCount": 11,
+            "groups": [
+              {
+                "id": 2000050139,
+                "sport": "FORMULA_1",
+                "name": "Lopp",
+                "boCount": 1
+              },
+              {
+                "id": 2000050140,
+                "sport": "FORMULA_1",
+                "name": "Säsongsspel",
+                "boCount": 10
+              }
+            ]
+          },
+          {
+            "id": 2000050229,
+            "sport": "SPEEDWAY",
+            "name": "Speedway",
+            "boCount": 7,
+            "groups": [
+              {
+                "id": 2000050232,
+                "sport": "SPEEDWAY",
+                "name": "Grand Prix",
+                "boCount": 6
+              },
+              {
+                "id": 2000050233,
+                "sport": "SPEEDWAY",
+                "name": "Sverige Elitserien",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000061308,
+            "sport": "V8_SUPERCARS",
+            "name": "V8 Supercars",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000061310,
+                "sport": "V8_SUPERCARS",
+                "name": "Säsongsspel",
+                "boCount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2000054941,
+        "sport": "NETBALL",
+        "name": "Netball",
+        "boCount": 1,
+        "groups": [
+          {
+            "id": 2000055726,
+            "sport": "NETBALL",
+            "name": "World Cup",
+            "boCount": 1
+          }
+        ]
+      },
+      {
+        "id": 1000093179,
+        "sport": "OLYMPIC_GAMES",
+        "name": "OS",
+        "boCount": 1,
+        "groups": [
+          {
+            "id": 1000093779,
+            "sport": "SPECIAL_BETS",
+            "name": "Specialer",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000053503,
+                "sport": "SPECIAL_BETS",
+                "name": "I rampljuset",
+                "boCount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2000061894,
+        "sport": "POLITICS",
+        "name": "Politik",
+        "boCount": 308,
+        "groups": [
+          {
+            "id": 2000061895,
+            "sport": "POLITICS",
+            "name": "Australien",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000061896,
+                "sport": "POLITICS",
+                "name": "Val",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000061901,
+            "sport": "POLITICS",
+            "name": "Brasilien",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000061919,
+                "sport": "POLITICS",
+                "name": "I rampljuset",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000061908,
+            "sport": "POLITICS",
+            "name": "France",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000061917,
+                "sport": "POLITICS",
+                "name": "Val",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000085667,
+            "sport": "POLITICS",
+            "name": "Philippines",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000085670,
+                "sport": "POLITICS",
+                "name": "I rampljuset",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000061938,
+            "sport": "POLITICS",
+            "name": "Poland",
+            "boCount": 11,
+            "groups": [
+              {
+                "id": 2000061950,
+                "sport": "POLITICS",
+                "name": "Val",
+                "boCount": 11
+              }
+            ]
+          },
+          {
+            "id": 2000061970,
+            "sport": "POLITICS",
+            "name": "Storbritannien",
+            "boCount": 288,
+            "groups": [
+              {
+                "id": 2000061977,
+                "sport": "POLITICS",
+                "name": "Val",
+                "boCount": 288
+              }
+            ]
+          },
+          {
+            "id": 2000061968,
+            "sport": "POLITICS",
+            "name": "USA",
+            "boCount": 5,
+            "groups": [
+              {
+                "id": 2000061975,
+                "sport": "POLITICS",
+                "name": "Val",
+                "boCount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000154363,
+        "sport": "RUGBY_LEAGUE",
+        "name": "Rugby League",
+        "boCount": 16,
+        "groups": [
+          {
+            "id": 2000060549,
+            "sport": "RUGBY_LEAGUE",
+            "name": "Australien",
+            "boCount": 6,
+            "groups": [
+              {
+                "id": 2000060550,
+                "sport": "RUGBY_LEAGUE",
+                "name": "Holden Cup U20",
+                "boCount": 2
+              },
+              {
+                "id": 2000060605,
+                "sport": "RUGBY_LEAGUE",
+                "name": "NSW Cup",
+                "boCount": 2
+              },
+              {
+                "id": 2000060551,
+                "sport": "RUGBY_LEAGUE",
+                "name": "QLD Cup",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 2000053270,
+            "sport": "RUGBY_LEAGUE",
+            "name": "Challenge Cup",
+            "boCount": 2
+          },
+          {
+            "id": 2000050687,
+            "sport": "RUGBY_LEAGUE",
+            "name": "NRL",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000050689,
+                "sport": "RUGBY_LEAGUE",
+                "name": "Säsongsspel",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 2000061880,
+            "sport": "RUGBY_LEAGUE",
+            "name": "State of Origin",
+            "boCount": 1
+          },
+          {
+            "id": 1000154364,
+            "sport": "RUGBY_LEAGUE",
+            "name": "Super League",
+            "boCount": 5,
+            "groups": [
+              {
+                "id": 2000051936,
+                "sport": "RUGBY_LEAGUE",
+                "name": "Turneringsspel",
+                "boCount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093230,
+        "sport": "RUGBY_UNION",
+        "name": "Rugby Union",
+        "boCount": 56,
+        "groups": [
+          {
+            "id": 1000465378,
+            "sport": "RUGBY_UNION",
+            "name": "England",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 1000281175,
+                "sport": "RUGBY_UNION",
+                "name": "Premiership",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000093455,
+            "sport": "RUGBY_UNION",
+            "name": "European Challenge Cup",
+            "boCount": 4
+          },
+          {
+            "id": 2000075952,
+            "sport": "RUGBY_UNION",
+            "name": "European Champions Cup",
+            "boCount": 4
+          },
+          {
+            "id": 1000465470,
+            "sport": "RUGBY_UNION",
+            "name": "Frankrike",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 1000094824,
+                "sport": "RUGBY_UNION",
+                "name": "Pro D2",
+                "boCount": 1
+              },
+              {
+                "id": 1000094823,
+                "sport": "RUGBY_UNION",
+                "name": "Top 14",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 2000063589,
+            "sport": "RUGBY_UNION",
+            "name": "Lions Tour",
+            "boCount": 1
+          },
+          {
+            "id": 2000050248,
+            "sport": "RUGBY_UNION",
+            "name": "Pro 12",
+            "boCount": 2
+          },
+          {
+            "id": 1000093759,
+            "sport": "RUGBY_UNION",
+            "name": "Six Nations Championship",
+            "boCount": 1
+          },
+          {
+            "id": 2000054418,
+            "sport": "RUGBY_UNION",
+            "name": "Super Rugby",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 2000054422,
+                "sport": "RUGBY_UNION",
+                "name": "Säsongsspel",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 1000093963,
+            "sport": "RUGBY_UNION",
+            "name": "VM",
+            "boCount": 36
+          }
+        ]
+      },
+      {
+        "id": 1000190837,
+        "sport": "CHESS",
+        "name": "Schack",
+        "boCount": 7,
+        "groups": [
+          {
+            "id": 2000050395,
+            "sport": "CHESS",
+            "name": "Internationella turneringar",
+            "boCount": 5,
+            "groups": [
+              {
+                "id": 2000075424,
+                "sport": "CHESS",
+                "name": "Shamkir",
+                "boCount": 5
+              }
+            ]
+          },
+          {
+            "id": 1000190838,
+            "sport": "CHESS",
+            "name": "VM",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000053290,
+                "sport": "CHESS",
+                "name": "Vinnarspel",
+                "boCount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093212,
+        "sport": "SWIMMING",
+        "name": "Simning",
+        "boCount": 1,
+        "groups": [
+          {
+            "id": 1000093948,
+            "sport": "SWIMMING",
+            "name": "VM",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000067194,
+                "sport": "SWIMMING",
+                "name": "Medaljspecialer",
+                "boCount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093176,
+        "sport": "SNOOKER",
+        "name": "Snooker",
+        "boCount": 142,
+        "groups": [
+          {
+            "id": 1000093920,
+            "sport": "SNOOKER",
+            "name": "VM",
+            "boCount": 142
+          }
+        ]
+      },
+      {
+        "id": 2000061311,
+        "sport": "SURFING",
+        "name": "Surfing",
+        "boCount": 3,
+        "groups": [
+          {
+            "id": 2000083049,
+            "sport": "SURFING",
+            "name": "WSL Mens Championship Tour",
+            "boCount": 3
+          }
+        ]
+      },
+      {
+        "id": 2000053071,
+        "sport": "NON_SPORT",
+        "name": "Underhållning & Specialer",
+        "boCount": 6,
+        "groups": [
+          {
+            "id": 2000053301,
+            "sport": "NON_SPORT",
+            "name": "Globalt",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 2000085087,
+                "sport": "NON_SPORT",
+                "name": "Eurovision",
+                "boCount": 1
+              },
+              {
+                "id": 2000053622,
+                "sport": "NON_SPORT",
+                "name": "Kändisar",
+                "boCount": 1
+              },
+              {
+                "id": 2000053930,
+                "sport": "NON_SPORT",
+                "name": "Priser & Utmärkelser",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000053313,
+            "sport": "NON_SPORT",
+            "name": "Litauen",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000054051,
+                "sport": "NON_SPORT",
+                "name": "Lokalt",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000053308,
+            "sport": "NON_SPORT",
+            "name": "Storbritannien",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000055146,
+                "sport": "NON_SPORT",
+                "name": "Kändisar",
+                "boCount": 1
+              },
+              {
+                "id": 2000062069,
+                "sport": "NON_SPORT",
+                "name": "Priser & Utmärkelser",
+                "boCount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1000093214,
+        "sport": "VOLLEYBALL",
+        "name": "Volleyboll",
+        "boCount": 91,
+        "groups": [
+          {
+            "id": 2000051997,
+            "sport": "VOLLEYBALL",
+            "name": "Belgien",
+            "boCount": 1,
+            "groups": [
+              {
+                "id": 2000051998,
+                "sport": "VOLLEYBALL",
+                "name": "1st League",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000052646,
+            "sport": "VOLLEYBALL",
+            "name": "Brasilien",
+            "boCount": 2,
+            "groups": [
+              {
+                "id": 2000056814,
+                "sport": "VOLLEYBALL",
+                "name": "Superliga damer",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000463934,
+            "sport": "VOLLEYBALL",
+            "name": "Frankrike",
+            "boCount": 3,
+            "groups": [
+              {
+                "id": 1000094820,
+                "sport": "VOLLEYBALL",
+                "name": "Ligue A",
+                "boCount": 3
+              }
+            ]
+          },
+          {
+            "id": 2000052037,
+            "sport": "VOLLEYBALL",
+            "name": "Holland",
+            "boCount": 9,
+            "groups": [
+              {
+                "id": 2000052038,
+                "sport": "VOLLEYBALL",
+                "name": "A League herrar",
+                "boCount": 9
+              }
+            ]
+          },
+          {
+            "id": 1000463860,
+            "sport": "VOLLEYBALL",
+            "name": "Italien",
+            "boCount": 28,
+            "groups": [
+              {
+                "id": 1000094696,
+                "sport": "VOLLEYBALL",
+                "name": "Serie A1 Grundserien",
+                "boCount": 3
+              },
+              {
+                "id": 1000206841,
+                "sport": "VOLLEYBALL",
+                "name": "Serie A1 Grundserien damer",
+                "boCount": 23
+              },
+              {
+                "id": 2000052222,
+                "sport": "VOLLEYBALL",
+                "name": "Serie A2",
+                "boCount": 2
+              }
+            ]
+          },
+          {
+            "id": 1000463925,
+            "sport": "VOLLEYBALL",
+            "name": "Polen",
+            "boCount": 29,
+            "groups": [
+              {
+                "id": 1000421780,
+                "sport": "VOLLEYBALL",
+                "name": "PlusLiga Damer",
+                "boCount": 18
+              },
+              {
+                "id": 1000421776,
+                "sport": "VOLLEYBALL",
+                "name": "PlusLiga",
+                "boCount": 11
+              }
+            ]
+          },
+          {
+            "id": 2000051971,
+            "sport": "VOLLEYBALL",
+            "name": "Ryssland",
+            "boCount": 8,
+            "groups": [
+              {
+                "id": 2000052144,
+                "sport": "VOLLEYBALL",
+                "name": "Championship Damer",
+                "boCount": 7
+              },
+              {
+                "id": 2000051972,
+                "sport": "VOLLEYBALL",
+                "name": "Super League",
+                "boCount": 1
+              }
+            ]
+          },
+          {
+            "id": 2000051966,
+            "sport": "VOLLEYBALL",
+            "name": "Tjeckien",
+            "boCount": 4,
+            "groups": [
+              {
+                "id": 2000051967,
+                "sport": "VOLLEYBALL",
+                "name": "Extraliga",
+                "boCount": 4
+              }
+            ]
+          },
+          {
+            "id": 2000052308,
+            "sport": "VOLLEYBALL",
+            "name": "Turkiet",
+            "boCount": 7,
+            "groups": [
+              {
+                "id": 2000052309,
+                "sport": "VOLLEYBALL",
+                "name": "1. Lig",
+                "boCount": 4
+              },
+              {
+                "id": 2000052369,
+                "sport": "VOLLEYBALL",
+                "name": "1. Lig Damer",
+                "boCount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
