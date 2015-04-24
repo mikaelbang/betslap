@@ -1,3 +1,162 @@
-.header {
-	color: #000;
+p{
+    margin: 0 0 0 0;
+}
+
+.container{
+}
+
+.oddsSports{
+    margin-top: 40px;
+}
+
+.oddsBorder{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.betBorder{
+    text-align: center;
+    color: orange;
+    border-bottom: 1px solid lightskyblue;
+    font-size: 18px;
+}
+
+.oddsLeague{
+    background-color: darkslategray;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.oddsGames{
+    background-color: darkslategray;
+    text-align: center;
+    color: white;
+}
+
+.oddsGamesText{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.hideBet{
+    display: inline-block;
+}
+
+.oneXTwoButtons{
+    margin: 0 auto;
+    max-height: 22px;
+}
+
+
+.oneXTwoButton{
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-height: 22px;
+    outline: none;
+    background-color: white;
+}
+
+.oneXTwoButton:active{
+    background-color: lightskyblue;
+}
+
+.oneXTwoText{
+    vertical-align: top;
+    height: 20px;
+    color: #000000;
+}
+
+.oneXTwoText:active{
+    color: white;
+}
+
+.oneXTwo{
+    height: 17px;
+}
+
+.bet1x2{
+    display: inline-block;
+    color: orange;
+}
+
+.coupon{
+    background-color: lightskyblue;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.couponContent{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.couponInfo{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.fullTime{
+    margin-top: 5px;
+}
+
+.couponOdds{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+.couponGame{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.deleteButton{
+    display: inline-block;
+    float: right;
+}
+
+.betButton{
+    margin-top: 10px;
+    outline: none;
+}
+
+.total{
+    margin-top: 15px;
+}
+
+.totalOdds{
+    margin-top: 10px;
+}
+
+.totalText{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.totalTextRight{
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#betInput{
+    outline: none;
+    padding-left: 10px;
+    text-align: right;
+    color: #000000;
+}
+
+#totalWin{
+    font-size: 18px;
 }
