@@ -160,3 +160,10 @@ p{
 #totalWin{
     font-size: 18px;
 }
+.header {
+	color: #000;
+}
+
+.challenge{
+    border: 1px solid black;
+}
