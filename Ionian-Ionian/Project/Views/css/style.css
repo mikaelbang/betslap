@@ -1,3 +1,32 @@
 .header {
 	color: #000;
 }
+img{
+    border: 6px solid #EDEFED;
+}
+.picture{
+    text-align: center;
+}
+.picture img{
+    width: 240px;
+}
+
+.info{
+    border: 1px solid #DCE0E0;
+    background-color: white;
+}
+.info p{
+    margin-top: 20px;
+    color: #F87239;
+}
+.panel_info table tr td{
+    margin-right: 10px;
+}
+.panel_header{
+    background-color: #EDEFED;
+    text-align: left;
+    padding: 10px 10px;
+    color: #565A5C;
+    margin-bottom: 20px;
+}
+
