@@ -10,7 +10,7 @@ Class PlController extends Controller{
 
 	public function GroupShowAction($group){
 
-		$ShowStm = Database::get()->prepare("SELECT home_team, away_team, start, result from events WHERE group_id = :group");
+		$ShowStm = Database::get()->prepare("SELECT home_team, away_team, start, result from events WHERE group_name = :group");
 		
 
 		$ShowStm->execute(array
