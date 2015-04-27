@@ -29,7 +29,6 @@ Class CronController extends Controller{
 
         $NHL = json_decode(@file_get_contents($requestURLNHL));
 
-        var_dump($NHL);
 
 
         for($i = 0; $i < count($laLiga->events); $i++){
@@ -116,6 +115,7 @@ Class CronController extends Controller{
             $oddsStm->bindParam(':kryss', $cross);
             $oddsStm->bindParam(':two', $two);
             $oddsStm->execute();
+
         }
     }
 }
