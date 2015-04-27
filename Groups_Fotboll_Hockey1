@@ -1,0 +1,57 @@
+{
+    "id": 1000093190,
+    "sport": "FOOTBALL",
+    "name": "Fotboll",
+    "boCount": 15862,
+    "groups": [
+            {
+                "id": 1000095057,
+                "sport": "FOOTBALL",
+                "name": "Allsvenskan",
+                "boCount": 779
+            },
+
+            {
+                "id": 1000094985,
+                "sport": "FOOTBALL",
+                "name": "Premier League",
+                "boCount": 1463
+            },
+
+            {
+                "id": 1000095049,
+                "sport": "FOOTBALL",
+                "name": "Primera División",
+                "boCount": 1262
+            },
+
+            {
+                "id": 1000095001,
+                "sport": "FOOTBALL",
+                "name": "Serie A",
+                "boCount": 1390
+            },
+    ]
+}
+
+{
+    "id": 1000093191,
+    "sport": "ICE_HOCKEY",
+    "name": "Ishockey",
+    "boCount": 869,
+    "groups": [
+            {
+                "id": 1000093961,
+                "sport": "ICE_HOCKEY",
+                "name": "Ishockey-VM",
+                "boCount": 14
+            },
+
+            {
+                "id": 1000093657,
+                "sport": "ICE_HOCKEY",
+                "name": "NHL",
+                "boCount": 419
+            },
+    ]
+}
