@@ -14,9 +14,7 @@ class UserController extends Controller {
 
     public function profileAction(){
 
-        $db = new PDO("mysql:host=localhost;dbname=betslap", "root", "root");
-
-        $profileStm = $db->prepare('SELECT * FROM users WHERE user_id = :user_id');
+        $profileStm = Database::get()->prepare('SELECT * FROM users WHERE user_id = :user_id');
         $profileStm->bindParam(":user_id", $_SESSION["user"]->user_id, PDO::PARAM_INT);
         $profileStm->execute();
         $user = $profileStm->fetchObject();
@@ -31,7 +29,8 @@ class UserController extends Controller {
         $db = new PDO("mysql:host=localhost;dbname=betslap", "root", "root");
 
         if(isset($_POST["save_button"])){
-            $updateProfileStm = $db->prepare('UPDATE users SET firstname = :firstname, lastname = :lastname, profile_pic = :p_pic, WHERE user_id = :user_id');
+
+            $updateProfileStm = Database::get()->prepare('UPDATE users SET firstname = :firstname, lastname = :lastname, profile_pic = :p_pic, WHERE user_id = :user_id');
             $updateProfileStm->bindParam(":user_id", $_SESSION["user"]->user_id, PDO::PARAM_INT);
             $updateProfileStm->bindParam(":firstname", $_POST["first_name"]);
             $updateProfileStm->bindParam(":lastname", $_POST["last_name"]);
