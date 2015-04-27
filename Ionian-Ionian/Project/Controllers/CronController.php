@@ -10,10 +10,6 @@ Class CronController extends Controller{
 
     public function TestAction(){
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 87cbf3bc9f90454fc62e51069476cd65c6545919
         $requestURLPL = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000094985.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
 
         $requestURLallsvenskan = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000095057.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
