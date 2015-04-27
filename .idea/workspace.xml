@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6efb0c87-ba85-4123-8d11-a0001b12643b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/betslap.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ionian-Ionian/index.php" afterPath="$PROJECT_DIR$/Ionian-Ionian/index.php" />
-    </list>
+    <list default="true" id="6efb0c87-ba85-4123-8d11-a0001b12643b" name="Default" comment="" />
     <ignored path="betslap.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +26,7 @@
       <file leaf-file-name="DateController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ionian-Ionian/Project/Controllers/DateController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="445" selection-end="445" vertical-scroll-proportion="0.44973546" vertical-offset="0" max-vertical-offset="567">
+            <state line="18" column="5" selection-start="453" selection-end="453" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="567">
               <folding>
                 <element signature="e#38#65#0" expanded="true" />
                 <marker date="1430135892000" expanded="true" signature="231:276" placeholder="SELECT * FRO..events..." />
@@ -314,7 +306,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ionian-Ionian/Project/Controllers/DateController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="445" selection-end="445" vertical-scroll-proportion="0.44973546" vertical-offset="0" max-vertical-offset="567">
+        <state line="18" column="5" selection-start="453" selection-end="453" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="567">
           <folding>
             <element signature="e#38#65#0" expanded="true" />
             <marker date="1430135892000" expanded="true" signature="231:276" placeholder="SELECT * FRO..events..." />
