@@ -10,7 +10,6 @@ Class CronController extends Controller{
 
     public function TestAction(){
 
-        print_r(get_declared_classes());
 
         $requestURLPL = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000094985.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
 
@@ -70,6 +69,36 @@ Class CronController extends Controller{
 
             $PLinsertStm->execute();
 
+        }
+
+
+    }
+
+    public function oddsAction(){
+
+        $eventstm = Database::get()->prepare('SELECT event_id FROM events'); //add where to date;
+
+        $eventstm->execute();
+
+        $odds = array();
+
+        while($row = $eventstm->fetch()){
+            $eventID = $row["event_id"];
+
+            $requestODDS = "http://api.unicdn.net/v1/feeds/sportsbook/betoffer/event/" . $eventID . ".json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&rangeSize=1&includeparticipants=false&outComeSortBy=odds&outComeSortDir=desc";
+
+            $test = json_decode(@file_get_contents($requestODDS));
+
+            $one = $test->betoffers[0]->outcomes[0]->odds;
+            $cross = $test->betoffers[0]->outcomes[1]->odds;
+            $two = $test->betoffers[0]->outcomes[2]->odds;
+
+            $oddsStm = Database::get()->prepare('INSERT INTO odds (event_id, one, kryss, two) VALUES (:event_id, :one, :kryss, :two)');
+            $oddsStm->bindParam(':event_id', $eventID);
+            $oddsStm->bindParam(':one', $one);
+            $oddsStm->bindParam(':kryss', $cross);
+            $oddsStm->bindParam(':two', $two);
+            $oddsStm->execute();
         }
 
     }
