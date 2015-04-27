@@ -1,8 +1,261 @@
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+html,body {
+	font-family: 'Ruda', sans-serif;
+	height:100%;
+	background-size: cover;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+.navbar-trans {
+	background-color:#F2F2F2;
+	color:#fff;
+}
+/*
+.navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
+	background-color:#F74D49;
+}
+*/
+.navbar-trans a{
+	color:#000;
+}
+
+	
+
+section {
+	/*
+	background: url("https://cdnolympic.files.wordpress.com/2014/03/crosby_goal_final.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
+	padding-top:70px;  
+	padding-bottom:50px; 
+	min-height:calc(100% - 1px);
+}
+
+.b-center {
+	padding-top:10%;
+	font-size:70px;
+}
+
+.well {
+	border-color:transparent;
+}
+
+#start {
+	background-color: #72B577;
+	color:#dedeff;
+}
+
+#start h1,h3,p,i {
+
+	color: #F2F2F2;
+} 
+
+
+footer {
+	background-color:#494949;
+	color:#ddd;
+	min-height:100px;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+
+footer .nav>li>a {
+	padding:3px;
+	color:#ccc;
+}
+
+footer .nav>li>a:hover {
+	background-color:transparent;
+	color:#fff;
+}
+
+
+/*
+11BF6E
+https://color.adobe.com/sv/stuck-on-you-color-theme-767438/edit/?copy=true&base=2&rule=Custom&selected=3&name=Kopia%20av%20stuck%20on%20you&mode=rgb&rgbvalues=0.94902,0.368627,0.52549,0.066667,0.74902,0.431373,0.94902,0.831373,0.239216,0.94902,0.498039,0.239216,0.94902,0.94902,0.94902&swatchOrder=0,1,2,3,4
+https://color.adobe.com/sv/Copy-of-Spring-is-Coming-color-theme-3658784/edit/?copy=true&base=2&rule=Custom&selected=2&name=Kopia%20av%20Copy%20of%20Spring%20is%20Coming&mode=rgb&rgbvalues=0.462745,0.835294,0.858824,0.270588,0.290196,0.396078,0.447059,0.709804,0.466667,0.94902,0.956863,0.937255,0.94902,0.254902,0.313726&swatchOrder=0,1,2,3,4
+*/
+
+p{
+    margin: 0 0 0 0;
+}
+
+.container{
+}
+
+.oddsSports{
+    margin-top: 40px;
+}
+
+.oddsBorder{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.betBorder{
+    text-align: center;
+    color: orange;
+    border-bottom: 1px solid lightskyblue;
+    font-size: 18px;
+}
+
+.oddsLeague{
+    background-color: darkslategray;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.oddsGames{
+    background-color: darkslategray;
+    text-align: center;
+    color: white;
+}
+
+.oddsGamesText{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.hideBet{
+    display: inline-block;
+}
+
+.oneXTwoButtons{
+    margin: 0 auto;
+    max-height: 22px;
+}
+
+
+.oneXTwoButton{
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-height: 22px;
+    outline: none;
+    background-color: white;
+}
+
+.oneXTwoButton:active{
+    background-color: lightskyblue;
+}
+
+.oneXTwoText{
+    vertical-align: top;
+    height: 20px;
+    color: #000000;
+}
+
+.oneXTwoText:active{
+    color: white;
+}
+
+.oneXTwo{
+    height: 17px;
+}
+
+.bet1x2{
+    display: inline-block;
+    color: orange;
+}
+
+.coupon{
+    background-color: lightskyblue;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.couponContent{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.couponInfo{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.fullTime{
+    margin-top: 5px;
+}
+
+.couponOdds{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+.couponGame{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.deleteButton{
+    display: inline-block;
+    float: right;
+}
+
+.betButton{
+    margin-top: 10px;
+    outline: none;
+}
+
+.total{
+    margin-top: 15px;
+}
+
+.totalOdds{
+    margin-top: 10px;
+}
+
+.totalText{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.totalTextRight{
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#betInput{
+    outline: none;
+    padding-left: 10px;
+    text-align: right;
+    color: #000000;
+}
+
+#totalWin{
+    font-size: 18px;
+}
+
 .header {
 	color: #000;
 }
 
+
 #tablerowContent {
 	font-size: 10px;
 	color:blue;
+
+}
+
+.challenge{
+    border: 1px solid black;
 }
