@@ -66,3 +66,24 @@ for($k = 0; $k < count($PL->events); $k++){
     $PLinsertStm->execute();
 
 }
+$eventstm = Database::get()->prepare('SELECT * FROM events');
+
+$eventstm->execute();
+$events=$eventstm->fetchAll();
+
+foreach ($events as $event) {
+    # code...
+}
+$requestODDS = "http://api.unicdn.net/v1/feeds/sportsbook/betoffer/event/'$eventid'.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&rangeSize=1&includeparticipants=false&outComeSortBy=odds&outComeSortDir=desc"
+
+
+
+foreach ($eventid as $requestODDS) {
+
+}
+
+oddsid
+eventid
+one
+x
+two

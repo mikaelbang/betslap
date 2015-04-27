@@ -13,6 +13,12 @@ html,body {
 	background-color:#F2F2F2;
 	color:#fff;
 }
+
+ul.nav.navbar-nav.navbar-right > li > button {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
 /*
 .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
 	background-color:#F74D49;
@@ -80,6 +86,8 @@ footer .nav>li>a:hover {
 11BF6E
 https://color.adobe.com/sv/stuck-on-you-color-theme-767438/edit/?copy=true&base=2&rule=Custom&selected=3&name=Kopia%20av%20stuck%20on%20you&mode=rgb&rgbvalues=0.94902,0.368627,0.52549,0.066667,0.74902,0.431373,0.94902,0.831373,0.239216,0.94902,0.498039,0.239216,0.94902,0.94902,0.94902&swatchOrder=0,1,2,3,4
 https://color.adobe.com/sv/Copy-of-Spring-is-Coming-color-theme-3658784/edit/?copy=true&base=2&rule=Custom&selected=2&name=Kopia%20av%20Copy%20of%20Spring%20is%20Coming&mode=rgb&rgbvalues=0.462745,0.835294,0.858824,0.270588,0.290196,0.396078,0.447059,0.709804,0.466667,0.94902,0.956863,0.937255,0.94902,0.254902,0.313726&swatchOrder=0,1,2,3,4
+*/
+
 */
 
 p{
