@@ -13,6 +13,12 @@ html,body {
 	background-color:#F2F2F2;
 	color:#fff;
 }
+
+ul.nav.navbar-nav.navbar-right > li > button {
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
 /*
 .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
 	background-color:#F74D49;
