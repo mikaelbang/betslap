@@ -9,6 +9,8 @@ Class BetController extends Controller{
 
     public function oddsAction(){
 
+        print_r(get_declared_classes());
+
         $oddsStm = database::get()->prepare('SELECT * FROM events');
         $oddsStm->execute();
 
