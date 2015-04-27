@@ -14,8 +14,14 @@ img{
 .info{
     border: 1px solid #DCE0E0;
     background-color: white;
+    padding: 0px;
 }
+
 .info p{
+    margin-left: 10px;
+}
+
+#change{
     margin-top: 20px;
     color: #F87239;
 }
