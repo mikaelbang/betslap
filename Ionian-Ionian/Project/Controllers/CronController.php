@@ -10,12 +10,17 @@ Class CronController extends Controller{
 
     public function TestAction(){
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87cbf3bc9f90454fc62e51069476cd65c6545919
         $requestURLPL = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000094985.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
 
         $requestURLallsvenskan = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000095057.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
 
         $requestURLlaLiga = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000095049.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
+
+        $requestURLNHL = 'http://api.unicdn.net/v1/feeds/sportsbook/event/group/1000093657.json?app_id=b86b14a2&app_key=30ee756c281395036a043cd65d0064a4&local=sv_SE&includeparticipants=false';
 
 
 
@@ -26,16 +31,16 @@ Class CronController extends Controller{
 
         $laLiga = json_decode(@file_get_contents($requestURLlaLiga));
 
+        $NHL = json_decode(@file_get_contents($requestURLNHL));
 
-
-        var_dump($PL);
-
+        var_dump($NHL);
 
 
         for($i = 0; $i < count($laLiga->events); $i++){
-            $LLinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :home_team, :away_team, :start, :sport_id)');
+            $LLinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, group_name, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :group_name, :home_team, :away_team, :start, :sport_id)');
             $LLinsertStm->bindParam(':event_id', $laLiga->events[$i]->id);
             $LLinsertStm->bindParam(':group_id', $laLiga->events[$i]->groupId);
+            $LLinsertStm->bindParam(':group_name', $laLiga->events[$i]->group);
             $LLinsertStm->bindParam(':home_team', $laLiga->events[$i]->homeName);
             $LLinsertStm->bindParam(':start', $laLiga->events[$i]->start);
             $LLinsertStm->bindParam(':away_team', $laLiga->events[$i]->awayName);
@@ -46,9 +51,10 @@ Class CronController extends Controller{
         }
 
         for($j = 0; $j < count($allsvenskan->events); $j++){
-            $AinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :home_team, :away_team, :start, :sport_id)');
+            $AinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, group_name, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :group_name, :home_team, :away_team, :start, :sport_id)');
             $AinsertStm->bindParam(':event_id', $allsvenskan->events[$j]->id);
             $AinsertStm->bindParam(':group_id', $allsvenskan->events[$j]->groupId);
+            $AinsertStm->bindParam(':group_name', $allsvenskan->events[$j]->group);
             $AinsertStm->bindParam(':home_team', $allsvenskan->events[$j]->homeName);
             $AinsertStm->bindParam(':start', $allsvenskan->events[$j]->start);
             $AinsertStm->bindParam(':away_team', $allsvenskan->events[$j]->awayName);
@@ -59,15 +65,30 @@ Class CronController extends Controller{
         }
 
         for($k = 0; $k < count($PL->events); $k++){
-            $PLinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :home_team, :away_team, :start, :sport_id)');
+            $PLinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, group_name, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :group_name, :home_team, :away_team, :start, :sport_id)');
             $PLinsertStm->bindParam(':event_id', $PL->events[$k]->id);
             $PLinsertStm->bindParam(':group_id', $PL->events[$k]->groupId);
+            $PLinsertStm->bindParam(':group_name', $PL->events[$k]->group);
             $PLinsertStm->bindParam(':home_team', $PL->events[$k]->homeName);
             $PLinsertStm->bindParam(':start', $PL->events[$k]->start);
             $PLinsertStm->bindParam(':away_team', $PL->events[$k]->awayName);
             $PLinsertStm->bindParam(':sport_id', $PL->events[$k]->sportId);
 
             $PLinsertStm->execute();
+
+        }
+
+        for($m = 0; $m < count($NHL->events); $m++){
+            $NHLinsertStm = Database::get()->prepare('INSERT INTO events(event_id, group_id, group_name, home_team, away_team, start, sport_id) VALUES (:event_id, :group_id, :group_name, :home_team, :away_team, :start, :sport_id)');
+            $NHLinsertStm->bindParam(':event_id', $NHL->events[$m]->id);
+            $NHLinsertStm->bindParam(':group_id', $NHL->events[$m]->groupId);
+            $NHLinsertStm->bindParam(':group_name', $NHL->events[$m]->group);
+            $NHLinsertStm->bindParam(':home_team', $NHL->events[$m]->homeName);
+            $NHLinsertStm->bindParam(':start', $NHL->events[$m]->start);
+            $NHLinsertStm->bindParam(':away_team', $NHL->events[$m]->awayName);
+            $NHLinsertStm->bindParam(':sport_id', $NHL->events[$m]->sportId);
+
+            $NHLinsertStm->execute();
 
         }
 
@@ -99,7 +120,7 @@ Class CronController extends Controller{
             $oddsStm->bindParam(':kryss', $cross);
             $oddsStm->bindParam(':two', $two);
             $oddsStm->execute();
-        }
+
 
     }
 
