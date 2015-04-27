@@ -6,7 +6,7 @@ use Ionian\Core\APIDump;
 use Ionian\Core\Controller;
 use Ionian\Database\Database;
 
-Class PlController extends Controller{
+Class GroupController extends Controller{
 
 	public function GroupShowAction($group){
 
