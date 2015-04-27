@@ -12,7 +12,7 @@ class ApiSampleController extends Controller {
         /*
             Get something from DB using:
 
-            $db = Database::get()->prepare("SELECT asd FROM testtable");
+            $db = Database::get()->prepare("SELECT asd FROM testable");
             $db->execute();
             $value = $db->fetchColumn();
          */
@@ -27,7 +27,7 @@ class ApiSampleController extends Controller {
     }
 
     public function optionalAction($param, $optional = null) {
-        $this->outputJSON("Paramters supplied", [$param, $optional]);
+        $this->outputJSON("Parameters supplied", [$param, $optional]);
     }
 
     public function errorAction($param) {
