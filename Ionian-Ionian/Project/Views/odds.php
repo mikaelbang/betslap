@@ -17,8 +17,103 @@
           <div class="oddsBorder">
               <p class="oddsborderText">Fotboll</p>
           </div>
+          <?php
+          if(!empty($PL)){
+          ?>
+              <div class="col-md-12 oddsLeague">
+                  <p class="oddsLeagueText">Premier League</p>
+              </div>
+              <table class="table oddsGames">
+              <thead>
+                  <tr>
+                      <th class="tableHeadline">Start</th>
+                      <th class="tableHeadline">Match</th>
+                      <th class="tableHeadline">
+                          <div class="col-md-12 oneXTwo">
+                              <p class="col-md-4 bet1x2">1</p>
+                              <p class="col-md-4 bet1x2">X</p>
+                              <p class="col-md-4 bet1x2">2</p>
+                          </div>
+                      </th>
+                  </tr>
+              </thead>
+              <tbody>
+              <?php
+              foreach($PL as $match){?>
+                  <tr>
+                      <td><?php echo($match["start"])?></td>
+                      <td><?php echo($match["home_team"] . " - " . $match["away_team"])?></td>
+                      <td>
+                          <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off">2.30
+                              </label>
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off">3.04
+                              </label>
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off"> 2.56
+                              </label>
+                          </div>
+                      </td>
+                  </tr><?php
+              }
+          }?>
+              </tbody>
+          </table>
+
+
+        <?php
+          if(!empty($laLiga)){
+          ?>
+              <div class="col-md-12 oddsLeague">
+                  <p class="oddsLeagueText">Primera Division</p>
+              </div>
+                  <table class="table oddsGames">
+                      <thead>
+                      <tr>
+                          <th class="tableHeadline">Start</th>
+                          <th class="tableHeadline">Match</th>
+                          <th class="tableHeadline">
+                              <div class="col-md-12 oneXTwo">
+                                  <p class="col-md-4 bet1x2">1</p>
+                                  <p class="col-md-4 bet1x2">X</p>
+                                  <p class="col-md-4 bet1x2">2</p>
+                              </div>
+                          </th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <?php
+                      foreach($laLiga as $match){?>
+                      <tr>
+                          <td><?php echo($match["start"])?></td>
+                          <td><?php echo($match["home_team"] . " - " . $match["away_team"])?></td>
+                          <td>
+                              <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                                  <label class="btn btn-primary oneXTwoButton">
+                                      <input type="checkbox" autocomplete="off">2.30
+                                  </label>
+                                  <label class="btn btn-primary oneXTwoButton">
+                                      <input type="checkbox" autocomplete="off">3.04
+                                  </label>
+                                  <label class="btn btn-primary oneXTwoButton">
+                                      <input type="checkbox" autocomplete="off"> 2.56
+                                  </label>
+                              </div>
+                          </td>
+                      </tr><?php
+                      }
+
+          }?>
+              </tbody>
+          </table>
+
+          <?php
+          if(!empty($allsvenskan)){
+          ?>
           <div class="col-md-12 oddsLeague">
-              <p class="oddsLeagueText">Primera Division</p>
+              <p class="oddsLeagueText">Allsvenskan</p>
           </div>
           <table class="table oddsGames">
               <thead>
@@ -35,40 +130,28 @@
               </tr>
               </thead>
               <tbody>
+              <?php
+              foreach($allsvenskan as $match){?>
                   <tr>
-                      <td>19.00</td>
-                      <td>Man U - Chelsea</td>
-                      <td>
-                          <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                              <label class="btn btn-primary oneXTwoButton">
-                                  <input type="checkbox" autocomplete="off">2.30
-                              </label>
-                              <label class="btn btn-primary oneXTwoButton">
-                                  <input type="checkbox" autocomplete="off">3.04
-                              </label>
-                              <label class="btn btn-primary oneXTwoButton">
-                                  <input type="checkbox" autocomplete="off"> 2.56
-                              </label>
-                          </div>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>20:00</td>
-                      <td>Liverpool - Tottenham</td>
-                      <td>
-                          <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                              <label class="btn btn-primary oneXTwoButton">
-                                  <input type="checkbox" autocomplete="off">2.30
-                              </label>
-                              <label class="btn btn-primary oneXTwoButton">
-                                  <input type="checkbox" autocomplete="off">3.04
-                              </label>
-                              <label class="btn btn-primary oneXTwoButton">
-                                  <input type="checkbox" autocomplete="off"> 2.56
-                              </label>
-                         </div>
-                      </td>
-                  </tr>
+                  <td><?php echo($match["start"])?></td>
+                  <td><?php echo($match["home_team"] . " - " . $match["away_team"])?></td>
+                  <td>
+                      <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off">2.30
+                          </label>
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off">3.04
+                          </label>
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off"> 2.56
+                          </label>
+                      </div>
+                  </td>
+                  </tr><?php
+              }
+
+              }?>
               </tbody>
           </table>
 
@@ -115,6 +198,9 @@
           <div class="oddsBorder">
               <p class="oddsborderText">Hockey</p>
           </div>
+          <?php
+          if(!empty($NHL)){
+          ?>
           <div class="col-md-12 oddsLeague">
               <p class="oddsLeagueText">NHL</p>
           </div>
@@ -133,9 +219,11 @@
               </tr>
               </thead>
               <tbody>
-              <tr>
-                  <td>19.00</td>
-                  <td>Man U - Chelsea</td>
+              <?php
+              foreach($NHL as $match){?>
+                  <tr>
+                  <td><?php echo($match["start"])?></td>
+                  <td><?php echo($match["home_team"] . " - " . $match["away_team"])?></td>
                   <td>
                       <div class="btn-group oneXTwoButtons" data-toggle="buttons">
                           <label class="btn btn-primary oneXTwoButton">
@@ -149,24 +237,10 @@
                           </label>
                       </div>
                   </td>
-              </tr>
-              <tr>
-                  <td>20:00</td>
-                  <td>Liverpool - Tottenham</td>
-                  <td>
-                      <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                          <label class="btn btn-primary oneXTwoButton">
-                              <input type="checkbox" autocomplete="off">2.30
-                          </label>
-                          <label class="btn btn-primary oneXTwoButton">
-                              <input type="checkbox" autocomplete="off">3.04
-                          </label>
-                          <label class="btn btn-primary oneXTwoButton">
-                              <input type="checkbox" autocomplete="off"> 2.56
-                          </label>
-                      </div>
-                  </td>
-              </tr>
+                  </tr><?php
+              }
+
+              }?>
               </tbody>
           </table>
       </div>

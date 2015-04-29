@@ -36,6 +36,8 @@ Class BetController extends Controller{
             }
         }
 
+        //die(var_dump($PL));
+
         require_once "Project/Views/odds.php";
     }
 
