@@ -13,221 +13,67 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 oddsSports">
+      <div class="col-md-8 oddsSports">
           <div class="oddsBorder">
               <p class="oddsborderText">Fotboll</p>
           </div>
           <div class="col-md-12 oddsLeague">
-              <p class="oddsLeagueText">Premier League</p>
-          </div>
-          <div class="col-md-12 oddsGames">
-            <p class="oddsGamesText">Manchester United - Liverpool</p>
-            <div class="hideBet">
-                <div class="col-md-12 oneXTwo">
-                    <p class="col-md-4 bet1x2">1</p>
-                    <p class="col-md-4 bet1x2">X</p>
-                    <p class="col-md-4 bet1x2">2</p>
-                </div>
-                <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                    <label class="btn btn-primary oneXTwoButton">
-                        <input type="checkbox" autocomplete="off">2.30
-                    </label>
-                    <label class="btn btn-primary oneXTwoButton">
-                        <input type="checkbox" autocomplete="off">3.04
-                    </label>
-                    <label class="btn btn-primary oneXTwoButton">
-                        <input type="checkbox" autocomplete="off"> 2.56
-                    </label>
-                </div>
-            </div>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">Arsenal - Crystal Palace</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-12 oddsLeague">
               <p class="oddsLeagueText">Primera Division</p>
           </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">Elche CF - Real Sociedad</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">Real Madrid - Atletico Madrid</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-12 oddsLeague">
-              <p class="oddsLeagueText">Allsvenskan</p>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">AIK - Hammarby IF</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
+          <table class="table oddsGames">
+              <thead>
+              <tr>
+                  <th class="tableHeadline">Start</th>
+                  <th class="tableHeadline">Match</th>
+                  <th class="tableHeadline">
+                      <div class="col-md-12 oneXTwo">
+                          <p class="col-md-4 bet1x2">1</p>
+                          <p class="col-md-4 bet1x2">X</p>
+                          <p class="col-md-4 bet1x2">2</p>
+                      </div>
+                  </th>
+              </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>19.00</td>
+                      <td>Man U - Chelsea</td>
+                      <td>
+                          <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off">2.30
+                              </label>
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off">3.04
+                              </label>
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off"> 2.56
+                              </label>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>20:00</td>
+                      <td>Liverpool - Tottenham</td>
+                      <td>
+                          <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off">2.30
+                              </label>
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off">3.04
+                              </label>
+                              <label class="btn btn-primary oneXTwoButton">
+                                  <input type="checkbox" autocomplete="off"> 2.56
+                              </label>
+                         </div>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+
       </div>
-      <div class="col-md-4 oddsSports">
-          <div class="oddsBorder">
-              <p class="oddsborderText">Hockey</p>
-          </div>
-          <div class="col-md-12 oddsLeague">
-              <p class="oddsLeagueText">NHL</p>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">Montreal Canadiens - Boston Bruins</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">Detroit Red Wings - Calgary Flames</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-12 oddsLeague">
-              <p class="oddsLeagueText">SHL</p>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">Växjö Lakers - Linköping HC</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-12 oddsGames">
-              <p class="oddsGamesText">HV71 - Frölunda HC</p>
-              <div class="hideBet">
-                  <div class="col-md-12 oneXTwo">
-                      <p class="col-md-4 bet1x2">1</p>
-                      <p class="col-md-4 bet1x2">X</p>
-                      <p class="col-md-4 bet1x2">2</p>
-                  </div>
-                  <div class="btn-group oneXTwoButtons" data-toggle="buttons">
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">2.30
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off">3.04
-                      </label>
-                      <label class="btn btn-primary oneXTwoButton">
-                          <input type="checkbox" autocomplete="off"> 2.56
-                      </label>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4 oddsSports">
+      <div class="col-md-4 oddsSports myBets">
           <div class="betBorder">
               <p class="oddsborderText">Mina Bet</p>
           </div>
@@ -264,6 +110,65 @@
                   <button type="button" class="btn btn-primary btn-sm btn-block betButton">SPELA</button>
               </div>
           </div>
+      </div>
+      <div class="col-md-8 oddsSports">
+          <div class="oddsBorder">
+              <p class="oddsborderText">Hockey</p>
+          </div>
+          <div class="col-md-12 oddsLeague">
+              <p class="oddsLeagueText">NHL</p>
+          </div>
+          <table class="table oddsGames">
+              <thead>
+              <tr>
+                  <th class="tableHeadline">Start</th>
+                  <th class="tableHeadline">Match</th>
+                  <th class="tableHeadline">
+                      <div class="col-md-12 oneXTwo">
+                          <p class="col-md-4 bet1x2">1</p>
+                          <p class="col-md-4 bet1x2">X</p>
+                          <p class="col-md-4 bet1x2">2</p>
+                      </div>
+                  </th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td>19.00</td>
+                  <td>Man U - Chelsea</td>
+                  <td>
+                      <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off">2.30
+                          </label>
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off">3.04
+                          </label>
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off"> 2.56
+                          </label>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>20:00</td>
+                  <td>Liverpool - Tottenham</td>
+                  <td>
+                      <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off">2.30
+                          </label>
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off">3.04
+                          </label>
+                          <label class="btn btn-primary oneXTwoButton">
+                              <input type="checkbox" autocomplete="off"> 2.56
+                          </label>
+                      </div>
+                  </td>
+              </tr>
+              </tbody>
+          </table>
       </div>
     </div>
   </div>
