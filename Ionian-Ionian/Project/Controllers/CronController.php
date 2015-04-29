@@ -116,6 +116,8 @@ Class CronController extends Controller{
             $oddsStm->bindParam(':kryss', $cross);
             $oddsStm->bindParam(':two', $two);
             $oddsStm->execute();
+
+            break;
         }
     }
 }

@@ -88,7 +88,6 @@ https://color.adobe.com/sv/stuck-on-you-color-theme-767438/edit/?copy=true&base=
 https://color.adobe.com/sv/Copy-of-Spring-is-Coming-color-theme-3658784/edit/?copy=true&base=2&rule=Custom&selected=2&name=Kopia%20av%20Copy%20of%20Spring%20is%20Coming&mode=rgb&rgbvalues=0.462745,0.835294,0.858824,0.270588,0.290196,0.396078,0.447059,0.709804,0.466667,0.94902,0.956863,0.937255,0.94902,0.254902,0.313726&swatchOrder=0,1,2,3,4
 */
 
-*/
 
 p{
     margin: 0 0 0 0;
@@ -141,19 +140,11 @@ p{
 }
 
 .oneXTwoButtons{
-    margin: 0 auto;
-    max-height: 22px;
+
 }
 
 
 .oneXTwoButton{
-    padding: 0;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    max-height: 22px;
-    outline: none;
-    background-color: white;
 }
 
 .oneXTwoButton:active{
