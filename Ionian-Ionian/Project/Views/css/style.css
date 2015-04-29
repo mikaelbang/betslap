@@ -5,6 +5,10 @@ html,body {
 	background-size: cover;
 }
 
+body{
+    background-color: #72B577;
+}
+
 .icon-bar {
 	background-color:#fff;
 }
@@ -59,7 +63,7 @@ section {
 
 #start h1,h3,p,i {
 
-	color: #F2F2F2;
+	/*color: #F2F2F2;*/
 } 
 
 
@@ -88,7 +92,6 @@ https://color.adobe.com/sv/stuck-on-you-color-theme-767438/edit/?copy=true&base=
 https://color.adobe.com/sv/Copy-of-Spring-is-Coming-color-theme-3658784/edit/?copy=true&base=2&rule=Custom&selected=2&name=Kopia%20av%20Copy%20of%20Spring%20is%20Coming&mode=rgb&rgbvalues=0.462745,0.835294,0.858824,0.270588,0.290196,0.396078,0.447059,0.709804,0.466667,0.94902,0.956863,0.937255,0.94902,0.254902,0.313726&swatchOrder=0,1,2,3,4
 */
 
-*/
 
 p{
     margin: 0 0 0 0;
@@ -102,29 +105,34 @@ p{
 }
 
 .oddsBorder{
-    background-color: orange;
+    background-color: #F2F2F2;
     text-align: center;
-    color: white;
+    color: #3a5a3c;
     font-size: 18px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3a5a3c;
+    border-color: #3a5a3c;
 }
 
 .betBorder{
     text-align: center;
-    color: orange;
-    border-bottom: 1px solid lightskyblue;
+    color: White;
+    border-bottom: 1px solid #F2F2F2;
     font-size: 18px;
 }
 
 .oddsLeague{
     background-color: darkslategray;
-    color: lightskyblue;
+    color: #72B577;
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
 }
 
 .oddsGames{
-    background-color: darkslategray;
+    background-color: #494949;
     text-align: center;
     color: white;
 }
@@ -138,27 +146,20 @@ p{
 
 .hideBet{
     display: inline-block;
+    padding-bottom: 10px;
 }
 
 .oneXTwoButtons{
-    margin: 0 auto;
-    max-height: 22px;
+
 }
 
 
 .oneXTwoButton{
-    padding: 0;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    max-height: 22px;
-    outline: none;
-    background-color: white;
+    background-color: #F2F2F2;
+    color: #72B577;
+    border: 1px solid #72B577;
 }
 
-.oneXTwoButton:active{
-    background-color: lightskyblue;
-}
 
 .oneXTwoText{
     vertical-align: top;
@@ -172,19 +173,21 @@ p{
 
 .oneXTwo{
     height: 17px;
+    float: inherit;
 }
 
 .bet1x2{
     display: inline-block;
     color: orange;
+    width: 50px;
 }
 
 .coupon{
-    background-color: lightskyblue;
+    background-color: #3a5a3c;
     border-radius: 3px;
     margin-top: 5px;
     margin-right: 0;
-    color: white;
+    color: #ffffff;
     font-size: 12px;
 }
 
@@ -216,15 +219,25 @@ p{
 .deleteButton{
     display: inline-block;
     float: right;
+    background-color: #F2F2F2;
+    color: #72B577;
 }
 
 .betButton{
     margin-top: 10px;
     outline: none;
+    background-color: orange;
+    border-color: orange;
+}
+
+.betButton:hover{
+    background-color: darkorange;
+    border-color: darkorange;
 }
 
 .total{
     margin-top: 15px;
+    color: #ffffff;
 }
 
 .totalOdds{

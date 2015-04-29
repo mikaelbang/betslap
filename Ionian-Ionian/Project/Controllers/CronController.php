@@ -78,6 +78,10 @@ Class CronController extends Controller{
             $oddsStm->bindParam(':two', $two);
             $oddsStm->execute();
 
+<<<<<<< HEAD
+            break;
+=======
+>>>>>>> master
         }
     }
 }
