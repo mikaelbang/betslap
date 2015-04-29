@@ -124,7 +124,7 @@ p{
 }
 
 .oddsLeague{
-    background-color: darkslategray;
+    background-color: #494949;
     color: #72B577;
     text-align: center;
     font-size: 16px;
@@ -133,7 +133,6 @@ p{
 
 .oddsGames{
     background-color: #494949;
-    text-align: center;
     color: white;
 }
 
@@ -144,12 +143,14 @@ p{
     cursor: pointer;
 }
 
+
 .hideBet{
     display: inline-block;
     padding-bottom: 10px;
 }
 
 .oneXTwoButtons{
+    float: inherit;
 
 }
 
@@ -173,13 +174,12 @@ p{
 
 .oneXTwo{
     height: 17px;
-    float: inherit;
+    float: left;
 }
 
 .bet1x2{
-    display: inline-block;
     color: orange;
-    width: 50px;
+    width: 45px;
 }
 
 .coupon{
@@ -266,6 +266,9 @@ p{
     font-size: 18px;
 }
 
+.myBets{
+}
+
 .header {
 	color: #000;
 }
@@ -275,6 +278,13 @@ p{
 	font-size: 10px;
 	color:blue;
 
+}
+
+table{
+}
+
+.tableHeadline{
+    color: orange;
 }
 
 .challenge{
