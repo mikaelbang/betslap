@@ -5,6 +5,10 @@ html,body {
 	background-size: cover;
 }
 
+body{
+    background-color: #72B577;
+}
+
 .icon-bar {
 	background-color:#fff;
 }
@@ -59,7 +63,7 @@ section {
 
 #start h1,h3,p,i {
 
-	color: #F2F2F2;
+	/*color: #F2F2F2;*/
 } 
 
 
@@ -101,29 +105,34 @@ p{
 }
 
 .oddsBorder{
-    background-color: orange;
+    background-color: #F2F2F2;
     text-align: center;
-    color: white;
+    color: #3a5a3c;
     font-size: 18px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3a5a3c;
+    border-color: #3a5a3c;
 }
 
 .betBorder{
     text-align: center;
-    color: orange;
-    border-bottom: 1px solid lightskyblue;
+    color: White;
+    border-bottom: 1px solid #F2F2F2;
     font-size: 18px;
 }
 
 .oddsLeague{
     background-color: darkslategray;
-    color: lightskyblue;
+    color: #72B577;
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
 }
 
 .oddsGames{
-    background-color: darkslategray;
+    background-color: #494949;
     text-align: center;
     color: white;
 }
@@ -137,6 +146,7 @@ p{
 
 .hideBet{
     display: inline-block;
+    padding-bottom: 10px;
 }
 
 .oneXTwoButtons{
@@ -145,11 +155,11 @@ p{
 
 
 .oneXTwoButton{
+    background-color: #F2F2F2;
+    color: #72B577;
+    border: 1px solid #72B577;
 }
 
-.oneXTwoButton:active{
-    background-color: lightskyblue;
-}
 
 .oneXTwoText{
     vertical-align: top;
@@ -163,19 +173,21 @@ p{
 
 .oneXTwo{
     height: 17px;
+    float: inherit;
 }
 
 .bet1x2{
     display: inline-block;
     color: orange;
+    width: 50px;
 }
 
 .coupon{
-    background-color: lightskyblue;
+    background-color: #3a5a3c;
     border-radius: 3px;
     margin-top: 5px;
     margin-right: 0;
-    color: white;
+    color: #ffffff;
     font-size: 12px;
 }
 
@@ -207,15 +219,25 @@ p{
 .deleteButton{
     display: inline-block;
     float: right;
+    background-color: #F2F2F2;
+    color: #72B577;
 }
 
 .betButton{
     margin-top: 10px;
     outline: none;
+    background-color: orange;
+    border-color: orange;
+}
+
+.betButton:hover{
+    background-color: darkorange;
+    border-color: darkorange;
 }
 
 .total{
     margin-top: 15px;
+    color: #ffffff;
 }
 
 .totalOdds{
