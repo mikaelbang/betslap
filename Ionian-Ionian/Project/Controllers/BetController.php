@@ -35,6 +35,8 @@ Class BetController extends Controller{
                 array_push($NHL, $event);
             }
         }
+
+        require_once "Project/Views/odds.php";
     }
 
     public function h2hAction(){

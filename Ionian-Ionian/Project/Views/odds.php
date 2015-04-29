@@ -5,9 +5,9 @@
   <title>Betslap</title>
   <meta name="description" content="Da shit">
   <meta name="author" content="">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href='css/style.css' rel='stylesheet' type='text/css'>
-  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <link href="/betslap/Ionian-Ionian/Project/Views/css/bootstrap.css" rel="stylesheet">
+  <link href="/betslap/Ionian-Ionian/Project/Views/css/style.css" rel='stylesheet' type='text/css'>
+  <script src="/betslap/Ionian-Ionian/Project/Views/js/bootstrap.js" type="text/javascript"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
@@ -268,7 +268,7 @@
     </div>
   </div>
 
-  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <script src="/betslap/Ionian-Ionian/Project/Views/js/bootstrap.js" type="text/javascript"></script>
 
 </body>
 </html>
