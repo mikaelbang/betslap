@@ -282,6 +282,9 @@ img{
     margin-top: 20px;
     color: #F87239;
 }
+.fa-cogs{
+   color: #F87239;
+}
 .panel_info table tr td{
     margin-right: 10px;
 }
@@ -301,6 +304,9 @@ img{
 }
 .row{
     margin-top: 100px;
+}
+.row2{
+    margin-top: 30px;
 }
 
 
