@@ -259,3 +259,7 @@ p{
 .challenge{
     border: 1px solid black;
 }
+
+.nav-tabs {
+   border-bottom: 0px solid #ddd;
+}

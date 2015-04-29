@@ -14,10 +14,10 @@ Class GroupController extends Controller{
 		
 
 		$ShowStm->execute(array
-			(':group'=>$group));
+			(':group' => urldecode($group))
+		);
 		$results = $ShowStm->fetchAll();
-
-		$this->outputJson($results);		
-
+		$this->outputJson($results);	
+		
 	}
 }
