@@ -41,7 +41,19 @@
                             <tr>
                                 <td><?php echo($i + 1)?>.</td>
                                 <td><?php echo($events[$i]['home_team'] . " - " . $events[$i]['away_team'])?></td>
-                                <td><label>1</label><input type="checkbox"/><label>X</label><input type="checkbox"><label>2</label><input type="checkbox"></td>
+                                <td>
+                                    <div class="btn-group oneXTwoButtons" data-toggle="buttons">
+                                        <label class="btn btn-primary oneXTwoButton">
+                                            <input type="checkbox" autocomplete="off">1
+                                        </label>
+                                        <label class="btn btn-primary oneXTwoButton">
+                                            <input type="checkbox" autocomplete="off">X
+                                        </label>
+                                        <label class="btn btn-primary oneXTwoButton">
+                                            <input type="checkbox" autocomplete="off">2
+                                        </label>
+                                    </div>
+                                </td>
                             </tr>
                         <?php
                         }
@@ -49,18 +61,33 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-4 challenge">
-                    <h1>Din utmaning</h1>
-                    <div class="row">
-                        <div class="">
-                            <img src="#"/>
-                        </div>
-                        <div>
-                            <p>Utmanarens namn</p>
+                <div class="col-md-4 oddsSports">
+                    <div class="betBorder">
+                        <p class="oddsborderText">Mitt Bet</p>
+                    </div>
+                    <div class="col-md-12 coupon">
+                        <div class="couponContent">
+                            <p class="couponGame">Montreal Canadiens - Boston Bruins</p>
+                            <button type="submit" class="btn btn-primary btn-xs deleteButton">X</button>
+                            <p class="fullTime">Full tid</p>
+                            <p class="couponInfo">Boston Bruins</p>
+                            <p class="couponOdds">2.61</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <button class="btn btn-info btn-lg" type="button">Skicka utmaning</button>
+                    <div class="col-md-12 total">
+                        <div class="totalOdds">
+                            <p class="totalText">Totalt Odds</p>
+                            <p class="totalTextRight">7.83</p>
+                        </div>
+                        <div class="totalOdds">
+                            <p class="totalText">Insats</p>
+                            <input class="totalTextRight" id="betInput" type="text" placeholder="0 SEK" />
+                        </div>
+                        <div class="totalOdds">
+                            <p class="totalText">Potentiell Vinst</p>
+                            <p class="totalTextRight" id="totalWin">0 kr</p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block betButton">SPELA</button>
+                        </div>
                     </div>
                 </div>
             </div>
