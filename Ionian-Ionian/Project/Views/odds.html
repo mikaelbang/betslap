@@ -13,7 +13,45 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-8 oddsSports">
+    <div class="col-xs-12 col-sm-4 col-md-4 pull-right oddsSports myBets">
+          <div class="betBorder">
+              <p class="oddsborderText">Mina Bet</p>
+          </div>
+          <div class="col-md-12 coupon">
+              <div class="couponContent">
+                  <p class="couponGame">Montreal Canadiens - Boston Bruins</p>
+                  <button type="submit" class="btn btn-primary btn-xs deleteButton">X</button>
+                  <p class="fullTime">Full tid</p>
+                  <p class="couponInfo">Boston Bruins</p>
+                  <p class="couponOdds">2.61</p>
+              </div>
+          </div>
+          <div class="col-md-12 coupon">
+              <div class="couponContent">
+                  <p class="couponGame">Arsenal - Crystal Palace</p>
+                  <button type="submit" class="btn btn-primary btn-xs deleteButton">X</button>
+                  <p class="fullTime">Full tid</p>
+                  <p class="couponInfo">Oavgjort</p>
+                  <p class="couponOdds">3.00</p>
+              </div>
+          </div>
+          <div class="col-md-12 total">
+              <div class="totalOdds">
+                  <p class="totalText">Totalt Odds</p>
+                  <p class="totalTextRight">7.83</p>
+              </div>
+              <div class="totalOdds">
+                  <p class="totalText">Insats</p>
+                  <input class="totalTextRight" id="betInput" type="text" placeholder="0 SEK" />
+              </div>
+              <div class="totalOdds">
+                  <p class="totalText">Potentiell Vinst</p>
+                  <p class="totalTextRight" id="totalWin">0 kr</p>
+                  <button type="button" class="btn btn-primary btn-sm btn-block betButton">SPELA</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8 oddsSports">
           <div class="oddsBorder">
               <p class="oddsborderText">Fotboll</p>
           </div>
@@ -73,45 +111,7 @@
           </table>
 
       </div>
-      <div class="col-md-4 oddsSports myBets">
-          <div class="betBorder">
-              <p class="oddsborderText">Mina Bet</p>
-          </div>
-          <div class="col-md-12 coupon">
-              <div class="couponContent">
-                  <p class="couponGame">Montreal Canadiens - Boston Bruins</p>
-                  <button type="submit" class="btn btn-primary btn-xs deleteButton">X</button>
-                  <p class="fullTime">Full tid</p>
-                  <p class="couponInfo">Boston Bruins</p>
-                  <p class="couponOdds">2.61</p>
-              </div>
-          </div>
-          <div class="col-md-12 coupon">
-              <div class="couponContent">
-                  <p class="couponGame">Arsenal - Crystal Palace</p>
-                  <button type="submit" class="btn btn-primary btn-xs deleteButton">X</button>
-                  <p class="fullTime">Full tid</p>
-                  <p class="couponInfo">Oavgjort</p>
-                  <p class="couponOdds">3.00</p>
-              </div>
-          </div>
-          <div class="col-md-12 total">
-              <div class="totalOdds">
-                  <p class="totalText">Totalt Odds</p>
-                  <p class="totalTextRight">7.83</p>
-              </div>
-              <div class="totalOdds">
-                  <p class="totalText">Insats</p>
-                  <input class="totalTextRight" id="betInput" type="text" placeholder="0 SEK" />
-              </div>
-              <div class="totalOdds">
-                  <p class="totalText">Potentiell Vinst</p>
-                  <p class="totalTextRight" id="totalWin">0 kr</p>
-                  <button type="button" class="btn btn-primary btn-sm btn-block betButton">SPELA</button>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-8 oddsSports">
+      <div class="col-xs-12 col-sm-8 col-md-8 oddsSports">
           <div class="oddsBorder">
               <p class="oddsborderText">Hockey</p>
           </div>

@@ -70,7 +70,7 @@
                         <br>
                         <input type="text" name="last_name" class=""  placeholder="Last Name">
                         <br>
-                         <input type="email" name="country" class=""  placeholder="Email">
+                         <input type="email" name="" class=""  placeholder="Email">
                         <br>
                         <input type="password" name="" class=""  placeholder="Password">
                     </div>
