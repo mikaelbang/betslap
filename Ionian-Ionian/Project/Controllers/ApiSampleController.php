@@ -2,6 +2,7 @@
 namespace Project\Controllers;
 
 use Ionian\Core\Controller;
+use Ionian\Database\Database;
 
 class ApiSampleController extends Controller {
     public function indexAction() {
@@ -12,7 +13,7 @@ class ApiSampleController extends Controller {
         /*
             Get something from DB using:
 
-            $db = Database::get()->prepare("SELECT asd FROM testtable");
+            $db = Database::get()->prepare("SELECT asd FROM testable");
             $db->execute();
             $value = $db->fetchColumn();
          */
@@ -24,10 +25,11 @@ class ApiSampleController extends Controller {
 
     public function parameterAction($param) {
         $this->outputJSON("PARAMETER WAS SUPPLIED!", $param);
+
     }
 
     public function optionalAction($param, $optional = null) {
-        $this->outputJSON("Paramters supplied", [$param, $optional]);
+        $this->outputJSON("Parameters supplied", [$param, $optional]);
     }
 
     public function errorAction($param) {
@@ -37,5 +39,27 @@ class ApiSampleController extends Controller {
         else {
             $this->errorHandler->unauthorized();
         }
+    }
+
+    public function groupAction($group){
+
+        $showGroupStm = Database::get()->prepare("SELECT home_team, away_team, start, result from events WHERE group_name = :group");
+        $showGroupStm->execute(array
+        (':group' => $group));
+        $results = $showGroupStm->fetchAll();
+
+        $this->outputJSON($results);
+
+    }
+
+    public function dateAction($date){
+
+
+        $showDateStm = Database::get()->prepare('SELECT * FROM events WHERE start = :startDate');
+        $showDateStm->bindParam(":startDate", $date);
+        $showDateStm->execute();
+        $result = $showDateStm->fetchAll();
+
+        $this->outputJSON($result);
     }
 }
