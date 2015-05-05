@@ -8,7 +8,7 @@ use Ionian\Database\Database;
 
 Class GroupController extends Controller{
 
-	public function GroupShowAction($group){
+	public function showAction($group){
 
 		$ShowStm = Database::get()->prepare("SELECT home_team, away_team, start, result from events WHERE group_name = :group");
 		
@@ -17,7 +17,7 @@ Class GroupController extends Controller{
 			(':group' => urldecode($group))
 		);
 		$results = $ShowStm->fetchAll();
-		$this->outputJson($results);	
+		$this->outputJSON($results);
 		
 	}
 }
